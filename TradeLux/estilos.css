@@ -1,0 +1,33 @@
+
+/*HEADER BORDER*/
+.border-amarelo {
+  border: 2px solid rgb(218,175,41);
+}
+/*CORES*/
+.AmareloPrincipal{
+  color: rgb(218,175,41)
+  }
+.AmareloClaro{
+  color: rgb(231,205,96)
+  }
+.CinzentoClaro{
+  color: rgb(239,239,239)
+  }
+.CinzentoEscuro{
+  color: rgb(68,68,68)
+}
+/*SECÇÕES*/
+/*NAV*/
+nav a{
+  color: rgb(68,68,68);
+
+}
+/*DESENVOLVER ANIMAÇÃO HOVER*/
+ul.nav a{
+  border-bottom: 2px solid white ;
+}
+/*DESENVOLVER ANIMAÇÃO HOVER*/
+ul.nav a:hover {
+  color: rgb(218,175,41) !important;
+  border-bottom: 2px solid rgb(218,175,41);
+ }

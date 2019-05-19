@@ -1,0 +1,4 @@
+Amarelo Principal : rgb(218,175,41) 
+Amarelo mais claro : rgb(231,205,96)
+Cinzento claro : rgb(239,239,239)
+Cinzento Escuro : rgb(68,68,68)
