@@ -1,7 +1,7 @@
 
 /*HEADER BORDER*/
 .border-amarelo {
-  border: 2px solid rgb(218,175,41);
+  border: 3px solid rgb(218,175,41);
 }
 /*CORES*/
 .AmareloPrincipal{
@@ -20,7 +20,6 @@
 /*NAV*/
 nav a{
   color: rgb(68,68,68);
-
 }
 /*DESENVOLVER ANIMAÇÃO HOVER*/
 ul.nav a{
@@ -31,3 +30,59 @@ ul.nav a:hover {
   color: rgb(218,175,41) !important;
   border-bottom: 2px solid rgb(218,175,41);
  }
+/*SEARCH BOX*/
+.search-box {
+ box-sizing: content-box;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background: rgb(239,239,239);
+ height: 40px;
+ border-radius: 40px;
+ 
+ padding: 10px;
+}
+
+.search-box:hover > .search-txt {
+ width: 240px;
+ padding: 0 15px;
+}
+
+.search-box:hover > .search-btn {
+ background: white;
+ color: black;
+}
+
+.search-btn {
+ color: #e84118;
+ float: right;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ background: rgb(239,239,239);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: 0.4s;
+ color: rgb(68,68,68);
+ cursor: pointer;
+}
+
+.search-btn > i {
+ font-size: 30px;
+}
+
+.search-txt {
+ border: none;
+ background: none;
+ outline: none;
+ float: right;
+ padding: 0;
+ color: rgb(68,68,68);
+ font-size: 16px;
+ transition: 0.4s;
+ line-height: 40px;
+ width: 0px;
+ font-weight: bold;
+}﻿
