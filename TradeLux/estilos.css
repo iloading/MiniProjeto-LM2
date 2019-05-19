@@ -85,12 +85,19 @@ ul.nav a:hover {
  line-height: 30px;
  width: 0px;
  font-weight: regular;
-}﻿
+}
 
 /*RETANGULO CENTRAL*/
-.trade{
-  position: absolute;
+.Trade{
   top: 50%;
-  left: 50%;
-
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: rgb(68,68,68);
+  font-size:3rem;
+  letter-spacing: 0.5rem;
+  line-height: 3.5rem;
+  font-weight: 500;
+  background-color: rgba(239,239,239,0.8);
+  padding: 1.5rem 0;
 }
