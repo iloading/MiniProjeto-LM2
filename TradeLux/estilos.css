@@ -18,9 +18,13 @@
 }
 /*SECÇÕES*/
 /*NAV*/
+
+nav{
+  transition: top 5s;
+}
 nav a{
   color: rgb(68,68,68);
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 /*DESENVOLVER ANIMAÇÃO HOVER*/
 ul.nav a{
@@ -55,7 +59,6 @@ ul.nav a:hover {
 }
 
 .search-btn {
- color: #e84118;
  float: right;
  width: 30px;
  height: 30px;
@@ -100,4 +103,11 @@ ul.nav a:hover {
   font-weight: 500;
   background-color: rgba(239,239,239,0.8);
   padding: 1.5rem 0;
+}
+
+.trending{
+  margin: 0;
+  padding: 1rem;
+  background-color: rgb(239,239,239);
+  border-bottom: 0.2rem solid rgb(218,175,41);
 }
