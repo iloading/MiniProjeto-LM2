@@ -1,5 +1,6 @@
 body {
-    padding-top: 5rem;
+  font-family: 'Montserrat', sans-serif !important;
+  padding-top: 5rem;
 }
 /*CORES*/
 .AmareloPrincipal{
@@ -26,7 +27,7 @@ nav {
   height: 5rem;
   border: 2px solid rgb(218,175,41);
   width: 100%;
-  z-index: 500;
+  z-index: 1;
 }
 
 .nav-link{
