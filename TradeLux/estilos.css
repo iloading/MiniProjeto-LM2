@@ -111,6 +111,7 @@ ul.nav a:hover {
   background-color: rgb(239,239,239);
   border-bottom: 0.2rem solid rgb(218,175,41);
 }
+/*see more button*/
 .seeMore{
   position: absolute;
   right: 1%;
@@ -139,6 +140,7 @@ section.trending a:visited{
   color: white;
 }
 
+/*ITENS TRENDING*/
 .separador{
   border-left: 1px solid rgba(68,68,68,0.2);
   border-right: 1px solid rgba(68,68,68,0.2);
@@ -170,11 +172,32 @@ section.trending a:visited{
   text-align: center;
   font-size: 1rem;
 }
+.iconTrend{
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  transition: 0.5s ease;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.iconTrend:hover{
+  color: rgb(231,205,96);
+  transition: .5s;
+}
 
 .efeito:hover .imgTrend {
   opacity: 1;
 }
 
 .efeito:hover .overlay {
+  opacity: 1;
+}
+
+.efeito:hover .iconTrend {
   opacity: 1;
 }
