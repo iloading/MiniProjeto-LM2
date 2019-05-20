@@ -1,6 +1,5 @@
 body {
   font-family: 'Montserrat', sans-serif !important;
-  padding-top: 5rem;
 }
 /*CORES*/
 .AmareloPrincipal{
@@ -18,9 +17,9 @@ body {
 /*SECÇÕES*/
 /*NAV*/
 #scroll{
-  position: fixed;
+  position: sticky;
   top:0;
-  transition: top 0.3s ease-in-out;
+  transition: top 0.2s ease-in-out;
 }
 nav {
   top: 0;
