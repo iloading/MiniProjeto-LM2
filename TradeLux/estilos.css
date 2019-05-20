@@ -201,3 +201,32 @@ section.trending a:visited{
 .efeito:hover .iconTrend {
   opacity: 1;
 }
+/*FOOTER*/
+footer{
+  color: rgba(239,239,239);
+  background-color: rgb(68,68,68);
+  padding: 1rem;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+footer a:link{
+
+}
+footer a:visited{
+
+}
+footer a:hover{
+text-decoration:none;
+
+}
+footer a:active{
+
+}
+footer article ul li:first-child{
+  margin-bottom: 1rem;
+  display: inline;
+  font-size: 1.5rem;
+  border-bottom: 1px solid rgb(218,175,41);
+}
