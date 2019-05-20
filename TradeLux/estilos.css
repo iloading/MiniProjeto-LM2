@@ -104,10 +104,77 @@ ul.nav a:hover {
   background-color: rgba(239,239,239,0.8);
   padding: 1.5rem 0;
 }
-
+/*TRENDING*/
 .trending{
   margin: 0;
   padding: 1rem;
   background-color: rgb(239,239,239);
   border-bottom: 0.2rem solid rgb(218,175,41);
+}
+.seeMore{
+  position: absolute;
+  right: 1%;
+  bottom: 10%;
+  display: inline;
+  margin: 0;
+  padding: 0.2rem 0.5rem;
+  background-color:rgb(218,175,41);
+  color: rgb(239,239,239);
+  font-size: 0.9rem;
+  border: 1px solid rgb(239,239,239);
+
+}
+.seeMore:hover{
+  background-color:white;;
+  border: 1px solid rgb(218,175,41);
+  color:  rgb(68,68,68);
+  transition: .2s;
+}
+section.trending a:link{
+  text-decoration: none;
+  color: white;
+}
+section.trending a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+.separador{
+  border-left: 1px solid rgba(68,68,68,0.2);
+  border-right: 1px solid rgba(68,68,68,0.2);
+}
+.overlay{
+  background-color: rgba(68,68,68,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 0.5s ease;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.nome{
+  margin: 0;
+  position: absolute;
+  bottom: 2%;
+  transform: translateX(-50%);
+  display: inline;
+  background-color: rgba(239,239,239,0.9);
+  border-top: 0.2rem solid rgb(218,175,41);
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.efeito:hover .imgTrend {
+  opacity: 1;
+}
+
+.efeito:hover .overlay {
+  opacity: 1;
 }
