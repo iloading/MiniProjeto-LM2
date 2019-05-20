@@ -19,17 +19,14 @@ body {
 #scroll{
   position: fixed;
   top:0;
-  transition: top 0.2s ease-in-out;
+  transition: top 0.3s ease-in-out;
 }
 nav {
   top: 0;
   height: 5rem;
   border: 2px solid rgb(218,175,41);
-
   width: 100%;
-}
-.nav-up {
-    top: -80px;
+  z-index: 500;
 }
 
 .nav-link{
@@ -45,8 +42,8 @@ ul.nav a:hover {
   color: rgb(218,175,41) !important;
   border-bottom: 2px solid rgb(218,175,41);
  }
-/*SEARCH BOX*/
 
+/*SEARCH BOX*/
 .search-box {
  box-sizing: content-box;
  position: absolute;
