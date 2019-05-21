@@ -120,7 +120,7 @@ ul.nav a:hover {
 .trending{
   margin: 0;
   padding: 1rem;
-  background-color: rgb(239,239,239);
+  background-color: white;
   border-bottom: 0.2rem solid rgb(218,175,41);
 }
 /*see more button*/
