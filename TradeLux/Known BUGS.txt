@@ -1,1 +1,1 @@
-
+- heart pixeliza e move-se quando hover na trending
