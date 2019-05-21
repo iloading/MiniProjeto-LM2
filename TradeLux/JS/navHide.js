@@ -9,16 +9,24 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
-/*MÁQUINA DE ESTADOS*/
 
+/*MÁQUINA DE ESTADOS*//*Feito pelo professor Hélder Caixinha*/
 var estado = 0;
 
-function slt() {
-  if (estado == 0) {
-    document.getElementById('fav').src='../TradeLux/Imagens/preenchido.png';
-    estado = 1;
+function slt(a) {
+  console.log(a);
+
+  var x =  document.getElementById(a).src
+  console.log (document.getElementById(a).src);
+
+  var ult6 =  x.substr(x.length - 6);
+  console.log(ult6);
+
+  if (ult6 == 'to.png') {
+    document.getElementById(a).src='./Imagens/preenchido.png';
   } else {
-    document.getElementById('fav').src='../TradeLux/Imagens/aberto.png';
-    estado = 0;
+    document.getElementById(a).src='./Imagens/aberto.png';
   }
+
+
 }
