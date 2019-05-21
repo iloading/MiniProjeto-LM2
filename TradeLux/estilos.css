@@ -152,6 +152,7 @@ section.trending a:visited{
   color: white;
 }
 
+
 /*ITENS TRENDING*/
 .separador{
   border-left: 1px solid rgba(68,68,68,0.2);
@@ -258,19 +259,19 @@ ul.menu li{
 /*Products */
 
 .nomedeproducto{
-    
+
  top: 8%
-    
+
 }
 
 .preco{
-    
+
     top:14%
-        
+
 }
 
 .butoes{
-    
+
     top: 20%
-    
+
 }
