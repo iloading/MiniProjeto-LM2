@@ -45,7 +45,7 @@ ul.nav a:hover {
   color: rgb(218,175,41) !important;
   border-bottom: 2px solid rgb(218,175,41);
  }
-
+/*EFEITO HOVER*/
 /*SEARCH BOX*/
 .search-box {
  box-sizing: content-box;
@@ -106,6 +106,7 @@ ul.nav a:hover {
   width: 32px;
 }
 /*RETANGULO CENTRAL*/
+
 .Trade{
   top: 50%;
   left:50%;
