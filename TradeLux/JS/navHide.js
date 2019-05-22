@@ -27,6 +27,17 @@ function slt(a) {
   } else {
     document.getElementById(a).src='./Imagens/aberto.png';
   }
-
-
 }
+
+/*MODAL LOGIN E REGISTO*/
+function addImage(pk) {
+    alert("addImage: " + pk);
+}
+
+$('#myModal .save').click(function (e) {
+    e.preventDefault();
+    addImage(5);
+    $('#myModal').modal('hide');
+    //$(this).tab('show')
+    return false;
+})

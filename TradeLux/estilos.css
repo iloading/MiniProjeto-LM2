@@ -37,11 +37,11 @@ nav {
   font-size: 1.1rem;
 }
 /*DESENVOLVER ANIMAÇÃO HOVER*/
-ul.nav a{
+.navPrincipal a{
   border-bottom: 2px solid white ;
 }
 /*DESENVOLVER ANIMAÇÃO HOVER*/
-ul.nav a:hover {
+.navPrincipal a:hover {
   color: rgb(218,175,41) !important;
   border-bottom: 2px solid rgb(218,175,41);
  }
@@ -304,4 +304,73 @@ ul.menu li{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     color: darkgray;
+}
+
+/*
+MODAL
+ */
+div.modal .row{
+  margin: 0 !important;
+}
+.close{
+  padding: 0 !important;
+  position: absolute;
+  top: 10%;
+  right: 6%;
+}
+.tabsTexto{
+  font-size: 1.5rem;
+  color: darkgray;
+}
+ul.navModal a:link{}
+ul.navModal a:visited{}
+ul.navModal a:hover{
+  text-decoration: none;
+  color: rgb(218,175,41);
+}
+ul.navModal a:active{
+  color: black;
+}
+.tab-pane{
+  display: flex;
+  background-color: lightgrey;
+  height: 50vh;
+}
+.Login a{
+  color: black;
+}
+.Login a:hover{
+  color: black;
+
+}
+.FraseModal{
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+.LoginSocial{
+  background-color: white;
+  width: 25%;
+  height: fit-content;
+  display: block;
+  padding: 0.2rem;
+}
+
+#loginLeft1{
+  position: absolute !important;
+  left: 20%;
+}
+#loginLeft2{
+  position: absolute !important;
+  left: 20%;
+  top: 40%;
+}
+#loginRight1{
+  position: absolute !important;
+  right: 20%;
+}
+#loginRight2{
+  position: absolute !important;
+  right: 20%;
+  top: 40%;
 }
