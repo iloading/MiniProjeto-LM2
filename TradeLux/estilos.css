@@ -211,7 +211,7 @@ section.trending a:visited{
 }
 /*FOOTER*/
 footer{
-  color: rgb(239,239,239);
+  color: rgba(239,239,239);
   background-color: rgb(68,68,68);
   padding: 1rem;
     margin-top: 5rem;
@@ -275,9 +275,6 @@ ul.menu li{
 
 .textofinalfooter{
     text-align: center;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    color: darkgray;
 }
 
 /*Products */
@@ -298,10 +295,4 @@ ul.menu li{
 
     top: 20%
 
-}
-
-.followapps{
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    color: darkgray;
 }
