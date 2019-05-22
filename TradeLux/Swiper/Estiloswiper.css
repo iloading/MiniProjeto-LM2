@@ -72,3 +72,6 @@ html, body {
      .swiper-button-prev:hover{
        opacity: 0.6;
      }
+     .swiper-button-disabled{
+       opacity: 0 !important;
+     }
