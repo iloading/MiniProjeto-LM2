@@ -29,7 +29,7 @@ nav {
   height: 5rem;
   border: 2px solid rgb(218,175,41);
   width: 100%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .nav-link{
@@ -118,13 +118,14 @@ ul.nav a:hover {
   font-weight: 500;
   background-color: rgba(239,239,239,0.8);
   padding: 1.5rem 0;
+  z-index: 1;
 }
 /*TRENDING*/
 .trending{
   margin: 0;
   height: 7rem;
   background-color: white;
-  
+
 }
 /*see more button*/
 .seeMore{
@@ -261,13 +262,13 @@ ul.menu li{
 }
 
 .lastfooter{
-    
+
     position: absolute;
     left: 0;
 }
 
 .divisaofooter{
-    
+
     border-bottom: 1px solid rgb(218,175,41);
 }
 
@@ -294,4 +295,3 @@ ul.menu li{
     top: 20%
 
 }
-

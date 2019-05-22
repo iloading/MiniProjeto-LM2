@@ -13,6 +13,15 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <!--BS4-->
   <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+  <!--Swiper-->
+  <link rel="stylesheet" href="Swiper/EstiloSwiper.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+
+
+
   <!--FAVICON-->
   <link rel="apple-touch-icon" sizes="57x57" href="Imagens/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="Imagens/favicon/apple-icon-60x60.png">
@@ -46,10 +55,8 @@
             <li class="nav-item mr-xl-5 ml-xl-5 ">
               <a class="nav-link" href="#">Watches</a>
             </li>
-            <li class="nav-item mr-xl-5 ml-xl-5 ">
-                
-            <li class="nav-item mr-md-4 ml-md-4">
-              <a class="nav-link" href="#">Cars</a>
+            <li class="nav-item mr-xl-5 ml-xl-5">
+              <a class="nav-link" href="#">Sneakers</a>
             </li>
           </ul>
         </section>
@@ -71,7 +78,22 @@
 
     <article class="container-fluid col-md-12 p-md-0">
       <figure class="m-0">
-        <img class="w-100" src="Imagens/adidasMain.png" alt="">
+        <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img class="w-100" src="Imagens/adidasMain.png" alt=""></div>
+        <div class="swiper-slide"><img class="w-100" src="Imagens/adidasMain.png" alt=""></div>
+        <div class="swiper-slide"><img class="w-100" src="Imagens/adidasMain.png" alt=""></div>
+        <div class="swiper-slide"><img class="w-100" src="Imagens/adidasMain.png" alt=""></div>
+        <div class="swiper-slide"><img class="w-100" src="Imagens/adidasMain.png" alt=""></div>
+        <div class="swiper-slide"><img class="w-100" src="Imagens/adidasMain.png" alt=""></div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
         <div class="container-fluid col-md-4 position-absolute Trade ">
           <p>TRADE</p>
           <p>AUTHENTIC</p>
@@ -95,26 +117,26 @@
 
         <div class="container-fluid col-md-3 p-md-0 efeito">
           <img class="img-fluid imgTrend h-100 w-100" src="Imagens/trending3.jpg" alt="">
-          <div class="overlay"><p class="nome">Yeezy 700 OG</p></div>
-            <a class="favAnim" onclick="slt('sneaker1');"><img id="sneaker1" class="iconTrend" src="Imagens/aberto.png" alt=""></a>
+          <a href="product_porsche.html"><div class="overlay"></div></a>
+          <a class="favAnim" onclick="slt('sneaker1');"><img id="sneaker1" class="iconTrend" src="Imagens/aberto.png" alt=""></a>
         </div>
 
         <div class="container-fluid col-md-3 p-md-0 efeito">
           <img class="img-fluid imgTrend h-100 w-100" src="Imagens/trending2.png" alt="">
-          <div class="overlay"><p class="nome">Rolex Submariner 1774</p></div>
-            <a class="favAnim" onclick="slt('sneaker2');"><img id="sneaker2"class="iconTrend" src="Imagens/aberto.png"  alt=""></a>
+          <a href="product_porsche.html"><div class="overlay"></div></a>
+          <a class="favAnim" onclick="slt('sneaker2');"><img id="sneaker2"class="iconTrend" src="Imagens/aberto.png"  alt=""></a>
         </div>
 
         <div class="container-fluid col-md-3 p-md-0 efeito">
           <img class="img-fluid imgTrend h-100 w-100" src="Imagens/trending1.jpg" alt="">
-          <div class="overlay"><p class="nome">OW x Air jordan 1</p></div>
-            <a class="favAnim" onclick="slt('sneaker3');" > <img id="sneaker3" class="iconTrend" src="Imagens/aberto.png" alt=""> </a>
+          <a href="product_porsche.html"><div class="overlay"></div></a>
+          <a class="favAnim" onclick="slt('sneaker3');" > <img id="sneaker3" class="iconTrend" src="Imagens/aberto.png" alt=""> </a>
         </div>
 
         <div class="container-fluid col-md-3 p-md-0 efeito">
-          <img class="img-fluid imgTrend h-100 w-100" src="Imagens/trending4.jpg" alt="">
-         <a href="product_porsche.html"> <div class="overlay"></div> </a>
-            <a class="favAnim" onclick="slt('sneaker4');" > <img id="sneaker4" class="iconTrend" src="Imagens/aberto.png" alt=""> </a>
+         <img class="img-fluid imgTrend h-100 w-100" src="Imagens/trending4.jpg" alt="">
+         <a href="product_porsche.html"><div class="overlay"></div> </a>
+         <a class="favAnim" onclick="slt('sneaker4');" > <img id="sneaker4" class="iconTrend" src="Imagens/aberto.png" alt=""> </a>
         </div>
 
       </section>
@@ -189,7 +211,7 @@
         </ul>
       </article>
           <div class="divisaofooter">
-          
+
           </div>
     </div>
           <div class="CinzentoMaisEscuro lastfooter container-fluid mw-100">
@@ -198,6 +220,7 @@
     </footer>
   </main>
 <!--BS4-->
+  <script src="Swiper/SwiperActivation.js"></script>
   <script type="text/javascript" src="JS/navHide.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
