@@ -14,6 +14,9 @@ body {
 .CinzentoEscuro{
   color: rgb(68,68,68)
 }
+.CinzentoMaisEscuro{
+    background-color: rgb(56, 56, 56)
+}
 /*SECÇÕES*/
 /*NAV*/
 #scroll{
@@ -119,9 +122,9 @@ ul.nav a:hover {
 /*TRENDING*/
 .trending{
   margin: 0;
-  padding: 1rem;
+  height: 7rem;
   background-color: white;
-  border-bottom: 0.2rem solid rgb(218,175,41);
+  
 }
 /*see more button*/
 .seeMore{
@@ -173,18 +176,7 @@ section.trending a:visited{
   -ms-transform: translate(-50%, -50%);
   opacity: 0;
 }
-.nome{
-  margin: 0;
-  position: absolute;
-  bottom: 2%;
-  transform: translateX(-50%);
-  display: inline;
-  background-color: rgba(239,239,239,0.9);
-  border-top: 0.2rem solid rgb(218,175,41);
-  padding: 0.5rem;
-  text-align: center;
-  font-size: 1rem;
-}
+
 .iconTrend{
   width: 10%;
   color: white;
@@ -220,11 +212,14 @@ footer{
   color: rgba(239,239,239);
   background-color: rgb(68,68,68);
   padding: 1rem;
+    margin-top: 5rem;
 }
 footer a{
   text-decoration: none;
   color: ;
 }
+
+
 
 footer .produtos a{color: darkgray;}
 footer a.categoria {color: white;}
@@ -246,6 +241,15 @@ ul{
   font-size: 1.5rem;
   border-bottom: 1px solid rgb(218,175,41);
 }
+.trendingtitle{
+  display: inline;
+  font-size: 2rem;
+  border-bottom: 1px solid rgb(218,175,41);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
 ul.produtos li{
   padding-top: 0.5rem;
   line-height: 2rem;
@@ -254,6 +258,21 @@ ul.menu li{
   padding-bottom: 0.3rem;
   font-size: 1.5rem;
   text-align: center;
+}
+
+.lastfooter{
+    
+    position: absolute;
+    left: 0;
+}
+
+.divisaofooter{
+    
+    border-bottom: 1px solid rgb(218,175,41);
+}
+
+.textofinalfooter{
+    text-align: center;
 }
 
 /*Products */
@@ -275,3 +294,4 @@ ul.menu li{
     top: 20%
 
 }
+
