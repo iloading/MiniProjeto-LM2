@@ -166,9 +166,9 @@ nav-item {
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.4);
-    background: rgba(0, 0, 0, 0.4);
-    color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
     left: 0;
