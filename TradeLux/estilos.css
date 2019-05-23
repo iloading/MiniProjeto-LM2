@@ -1,273 +1,311 @@
 body {
-  font-family: 'Montserrat', sans-serif !important;
-}
-/*CORES*/
-.AmareloPrincipal{
-  color: rgb(218,175,41)
-  }
-.AmareloClaro{
-  color: rgb(231,205,96)
-  }
-.CinzentoClaro{
-  color: rgb(239,239,239)
-  }
-.CinzentoEscuro{
-  color: rgb(68,68,68)
-}
-.CinzentoMaisEscuro{
-    background-color: rgb(56, 56, 56)
-}
-/*SECÇÕES*/
-/*NAV*/
-#scroll{
-  position: fixed;
-  top:0;
-  transition: top 0.4s ease-in-out;
-}
-nav {
-  top: 0;
-  height: 5rem;
-  border: 2px solid rgb(218,175,41);
-  width: 100%;
-  z-index: 2;
-}
-nav-item{
-  margin: 0 !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
-.nav-link{
-  color: rgb(68,68,68);
-  font-size: 1.1rem;
+/*CORES*/
+.AmareloPrincipal {
+    color: rgb(218, 175, 41)
 }
+
+.AmareloClaro {
+    color: rgb(231, 205, 96)
+}
+
+.CinzentoClaro {
+    color: rgb(239, 239, 239)
+}
+
+.CinzentoEscuro {
+    color: rgb(68, 68, 68)
+}
+
+.CinzentoMaisEscuro {
+    background-color: rgb(56, 56, 56)
+}
+
+/*SECÇÕES*/
+/*NAV*/
+#scroll {
+    position: fixed;
+    top: 0;
+    transition: top 0.4s ease-in-out;
+}
+
+nav {
+    top: 0;
+    height: 5rem;
+    border: 2px solid rgb(218, 175, 41);
+    width: 100%;
+    z-index: 2;
+}
+
+nav-item {
+    margin: 0 !important;
+}
+
+.nav-link {
+    color: rgb(68, 68, 68);
+    font-size: 1.1rem;
+}
+
 /*DESENVOLVER ANIMAÇÃO HOVER*/
-.navPrincipal a{
-  border-bottom: 2px solid white ;
+.navPrincipal a {
+    border-bottom: 2px solid white;
 }
+
 /*DESENVOLVER ANIMAÇÃO HOVER*/
 .navPrincipal a:hover {
-  color: rgb(218,175,41) !important;
-  border-bottom: 2px solid rgb(218,175,41);
- }
+    color: rgb(218, 175, 41) !important;
+    border-bottom: 2px solid rgb(218, 175, 41);
+}
+
 /*EFEITO HOVER*/
 /*SEARCH BOX*/
 .search-box {
- box-sizing: content-box;
- position: absolute;
- top: 50%;
- left: 80%;
- transform: translate(-99%, -50%);
- background: rgb(239,239,239);
- width: fit-content;
- height: 30px;
- border-radius: 40px;
- padding: 10px;
+    box-sizing: content-box;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-99%, -50%);
+    background: rgb(239, 239, 239);
+    width: fit-content;
+    height: 30px;
+    border-radius: 40px;
+    padding: 10px;
 }
 
 .search-box:hover > .search-txt {
- width: 150px;
- padding: 0 15px;
+    width: 150px;
+    padding: 0 15px;
 }
 
 .search-box:hover > .search-btn {
- background: white;
- color: black;
+    background: white;
+    color: black;
 }
 
 .search-btn {
- float: right;
- width: 30px;
- height: 30px;
- border-radius: 50%;
- background: rgb(239,239,239);
- display: flex;
- justify-content: center;
- align-items: center;
- transition: 0.4s;
- color: rgb(68,68,68);
- cursor: pointer;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(239, 239, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: rgb(68, 68, 68);
+    cursor: pointer;
 }
 
 .search-btn > i {
- font-size: 30px;
+    font-size: 30px;
 }
 
 .search-txt {
- border: none;
- background: none;
- outline: none;
- float: left;
- padding: 0;
- color: rgb(68,68,68);
- font-size: 16px;
- transition: 0.4s;
- line-height: 30px;
- width: 0px;
- font-weight: regular;
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgb(68, 68, 68);
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 0px;
+    font-weight: regular;
 }
+
 /*Utilizador*/
-.userLogo{
-  width: 32px;
-  cursor:pointer;
+.userLogo {
+    width: 32px;
+    cursor: pointer;
 }
 
 .full-screen {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 /*RETANGULO CENTRAL*/
 
-.Trade{
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
-  text-align: center;
-  color: rgb(68,68,68);
-  font-size:3rem;
-  letter-spacing: 0.5rem;
-  line-height: 3.5rem;
-  font-weight: 500;
-  background-color: rgba(239,239,239,0.8);
-  padding: 1.5rem 0;
-  z-index: 1;
+.Trade {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(68, 68, 68);
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    line-height: 3.5rem;
+    font-weight: 500;
+    background-color: rgba(239, 239, 239, 0.8);
+    padding: 1.5rem 0;
+    z-index: 1;
 }
+
 /*TRENDING*/
-.trending{
-  margin: 0;
-  height: 7rem;
-  background-color: white;
+.trending {
+    margin: 0;
+    height: 7rem;
+    background-color: white;
 
 }
 
 .nohover {
     text-decoration: none;
     color: black;
-    
-}
-/*ITENS TRENDING*/
-.separador{
-  border-left: 1px solid rgba(68,68,68,0.2);
-  border-right: 1px solid rgba(68,68,68,0.2);
-}
-.overlay{
-  background-color: rgba(68,68,68,0.5);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: 0.5s ease;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  opacity: 0;
+
 }
 
-.iconTrend{
-  width: 10%;
-  color: white;
-  position: absolute;
-  top: 0;
-  left: 0;
-  text-align: center;
-  transition: 0.5s ease;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  opacity: 0;
+/*ITENS TRENDING*/
+.separador {
+    border-left: 1px solid rgba(68, 68, 68, 0.2);
+    border-right: 1px solid rgba(68, 68, 68, 0.2);
 }
-.iconTrend:hover{
-  color: rgb(231,205,96);
-  transition: .5s;
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 0.5s ease;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.iconTrend {
+    width: 10%;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    transition: 0.5s ease;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.iconTrend:hover {
+    color: rgb(231, 205, 96);
+    transition: .5s;
 }
 
 .efeito:hover .imgTrend {
-  opacity: 1;
+    opacity: 1;
 }
 
 .efeito:hover .overlay {
-  opacity: 1;
+    opacity: 1;
 }
 
 .efeito:hover .iconTrend {
-  opacity: 1;
+    opacity: 1;
 }
+
 /*FOOTER*/
-footer{
-  color: rgb(239,239,239);
-  background-color: rgb(68,68,68);
-  padding: 1rem;
+footer {
+    color: rgb(239, 239, 239);
+    background-color: rgb(68, 68, 68);
+    padding: 1rem;
     margin-top: 5rem;
 }
-footer a{
-  text-decoration: none;
-  color: ;
+
+footer a {
+    text-decoration: none;
+    color: ;
 }
 
 
 
-footer .produtos a{color: darkgray;}
-footer a.categoria {color: white;}
-footer .menu a{color: white;}
-footer a:visited{}
-footer a:hover{text-decoration:none;}
-footer a:active{}
-
-ul{
-
-  list-style: none;
-  display: inline-block;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+footer .produtos a {
+    color: darkgray;
 }
-.categoria{
-  display: inline;
-  font-size: 1.5rem;
-  border-bottom: 1px solid rgb(218,175,41);
+
+footer a.categoria {
+    color: white;
 }
-.trendingtitle{
-  display: inline;
-  font-size: 2rem;
-  border-bottom: 1px solid rgb(218,175,41);
-    position: absolute;
-    top:50%;
+
+footer .menu a {
+    color: white;
+}
+
+footer a:visited {}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+footer a:active {}
+
+ul {
+
+    list-style: none;
+    display: inline-block;
+    position: relative;
     left: 50%;
-    transform: translate(-50%,-50%)
-}
-ul.produtos li{
-  padding-top: 0.5rem;
-  line-height: 2rem;
-}
-ul.menu li{
-  padding-bottom: 0.3rem;
-  font-size: 1.5rem;
-  text-align: center;
+    transform: translateX(-50%);
 }
 
-.lastfooter{
+.categoria {
+    display: inline;
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgb(218, 175, 41);
+}
+
+.trendingtitle {
+    display: inline;
+    font-size: 2rem;
+    border-bottom: 1px solid rgb(218, 175, 41);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+ul.produtos li {
+    padding-top: 0.5rem;
+    line-height: 2rem;
+}
+
+ul.menu li {
+    padding-bottom: 0.3rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.lastfooter {
 
     position: absolute;
     left: 0;
 }
 
-.divisaofooter{
+.divisaofooter {
 
-    border-bottom: 1px solid rgb(218,175,41);
+    border-bottom: 1px solid rgb(218, 175, 41);
 }
 
-.textofinalfooter{
+.textofinalfooter {
     text-align: center;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     color: darkgray;
 }
 
-.facebookfooter{
-  position: absolute;
+.facebookfooter {
+    position: absolute;
     margin-left: 17rem;
     margin-bottom: 0rem;
     margin-top: 0rem;
@@ -275,25 +313,22 @@ ul.menu li{
 
 /*Products */
 
-.nomedeproducto{
+.nomedeproducto {
 
- top: 8%
-
+    top: 8%
 }
 
-.preco{
+.preco {
 
-    top:14%
-
+    top: 14%
 }
 
-.butoes{
+.butoes {
 
     top: 20%
-
 }
 
-.followapps{
+.followapps {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     margin-left: 11rem;
@@ -303,120 +338,143 @@ ul.menu li{
 /*
 MODAL
  */
-div.modal .row{
-  margin: 0 !important;
+div.modal .row {
+    margin: 0 !important;
 }
-.close{
-  padding: 0 !important;
-  position: absolute;
-  top: 10%;
-  right: 6%;
+
+.close {
+    padding: 0 !important;
+    position: absolute;
+    top: 10%;
+    right: 6%;
 }
-.tabsTexto{
-  font-size: 1.5rem;
-  color: darkgray;
+
+.tabsTexto {
+    font-size: 1.5rem;
+    color: darkgray;
 }
-ul.navModal a:link{}
-ul.navModal a:visited{}
-ul.navModal a:hover{
-  text-decoration: none;
-  color: rgb(218,175,41);
+
+ul.navModal a:link {}
+
+ul.navModal a:visited {}
+
+ul.navModal a:hover {
+    text-decoration: none;
+    color: rgb(218, 175, 41);
 }
-ul.navModal a:active{
-  color: black;
+
+ul.navModal a:active {
+    color: black;
 }
-.tab-pane{
-  display: flex;
-  background-color: lightgrey;
-  height: 50vh;
+
+.tab-pane {
+    display: flex;
+    background-color: lightgrey;
+    height: 50vh;
 }
-.Login a{
-  color: black;
+
+.Login a {
+    color: black;
 }
-.Login a:hover{
-  color: black;
+
+.Login a:hover {
+    color: black;
 
 }
-.FraseModal{
-  text-align: center;
-  font-size: 1rem;
-  padding: 1rem 0;
+
+.FraseModal {
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem 0;
 }
-.FraseModal2{
-  text-align: center;
-  font-size: 1rem;
-  position: absolute;
+
+.FraseModal2 {
+    text-align: center;
+    font-size: 1rem;
+    position: absolute;
     top: 55%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 100%;
 }
-.LoginSocial{
-  background-color: white;
-  width: 25%;
-  height: fit-content;
-  display: block;
-  padding: 0.2rem;
+
+.LoginSocial {
+    background-color: white;
+    width: 25%;
+    height: fit-content;
+    display: block;
+    padding: 0.2rem;
 }
 
-#loginLeft1{
-  position: absolute !important;
-  left: 20%;
+#loginLeft1 {
+    position: absolute !important;
+    left: 20%;
 }
-#loginLeft2{
-  position: absolute !important;
-  left: 20%;
-  top: 40%;
+
+#loginLeft2 {
+    position: absolute !important;
+    left: 20%;
+    top: 40%;
 }
-#loginRight1{
-  position: absolute !important;
-  right: 20%;
+
+#loginRight1 {
+    position: absolute !important;
+    right: 20%;
 }
-#loginRight2{
-  position: absolute !important;
-  right: 20%;
-  top: 40%;
+
+#loginRight2 {
+    position: absolute !important;
+    right: 20%;
+    top: 40%;
 }
-.iconSocial{
-  position: absolute;
-  top: 50%;
-  left: 30%;
-    transform: translate(-70%,-50%);
+
+.iconSocial {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-70%, -50%);
     width: 60%;
-  height: auto;
+    height: auto;
 }
-.loginForm{
-  padding-right: 2rem;
-width: 100%;
-  position: absolute;
-  top:55%;
+
+.loginForm {
+    padding-right: 2rem;
+    width: 100%;
+    position: absolute;
+    top: 55%;
 }
-.centrar{
-  text-align: -webkit-center;
+
+.centrar {
+    text-align: -webkit-center;
 }
-.loginForm input[type=password],.loginForm input[type=text]{
-  display: block;
-  width: 90%;
-  border: 0;
-  text-indent: 0.5rem;
-  outline: none;
+
+.loginForm input[type=password],
+.loginForm input[type=text] {
+    display: block;
+    width: 90%;
+    border: 0;
+    text-indent: 0.5rem;
+    outline: none;
 }
-.loginForm button[type=submit]{
-  background-color: rgb(218,175,41);
-  border: 0;
-  color: white;
-  outline: none;
-  position: absolute;
-right: 13.8%;
-top: 120%;
-width: 25%;
+
+.loginForm button[type=submit] {
+    background-color: rgb(218, 175, 41);
+    border: 0;
+    color: white;
+    outline: none;
+    position: absolute;
+    right: 13.8%;
+    top: 120%;
+    width: 25%;
 }
-.rememberMe{
-  position: absolute;
-top: 155%;
-right: 14%;
-font-size: 0.7rem;
+
+.rememberMe {
+    position: absolute;
+    top: 155%;
+    right: 14%;
+    font-size: 0.7rem;
 }
+
 .resetPass p {
-  display: inline;
+    display: inline;
 }
