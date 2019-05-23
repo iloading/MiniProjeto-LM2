@@ -281,6 +281,13 @@ ul.menu li{
     color: darkgray;
 }
 
+.facebookfooter{
+  position: absolute;
+    margin-left: 17rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+
 /*Products */
 
 .nomedeproducto{
@@ -304,6 +311,7 @@ ul.menu li{
 .followapps{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    margin-left: 11rem;
     color: darkgray;
 }
 
