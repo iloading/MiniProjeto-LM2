@@ -20,7 +20,7 @@ body {
 /*SECÇÕES*/
 /*NAV*/
 #scroll{
-  position: sticky;
+  position: fixed;
   top:0;
   transition: top 0.4s ease-in-out;
 }
