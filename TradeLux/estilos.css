@@ -20,7 +20,7 @@ body {
 /*SECÇÕES*/
 /*NAV*/
 #scroll{
-  position: sticky;
+  position: fixed;
   top:0;
   transition: top 0.4s ease-in-out;
 }
@@ -30,6 +30,9 @@ nav {
   border: 2px solid rgb(218,175,41);
   width: 100%;
   z-index: 2;
+}
+nav-item{
+  margin: 0 !important;
 }
 
 .nav-link{
@@ -106,6 +109,12 @@ nav {
   width: 32px;
   cursor:pointer;
 }
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 /*RETANGULO CENTRAL*/
 
 .Trade{
@@ -129,36 +138,6 @@ nav {
   background-color: white;
 
 }
-/*see more button*/
-.seeMore{
-  position: absolute;
-  right: 1%;
-  bottom: 10%;
-  display: inline;
-  margin: 0;
-  padding: 0.2rem 0.5rem;
-  background-color:rgb(218,175,41);
-  color: rgb(239,239,239);
-  font-size: 0.9rem;
-  border: 1px solid rgb(239,239,239);
-
-}
-.seeMore:hover{
-  background-color:white;;
-  border: 1px solid rgb(218,175,41);
-  color:  rgb(68,68,68);
-  transition: .2s;
-}
-section.trending a:link{
-  text-decoration: none;
-  color: white;
-}
-section.trending a:visited{
-  text-decoration: none;
-  color: white;
-}
-
-
 /*ITENS TRENDING*/
 .separador{
   border-left: 1px solid rgba(68,68,68,0.2);
