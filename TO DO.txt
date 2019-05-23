@@ -1,9 +1,6 @@
 - Home Page:
 	- Footer
-	-Share
 	-Overlay Login/Register
-	-Trending clicky
-	-Imagens do trending clicky
 
 A nav bar tem de ser sticky nas outras páginas, apesar na index ser fixed.
 

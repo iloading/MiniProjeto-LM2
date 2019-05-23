@@ -138,6 +138,12 @@ nav-item{
   background-color: white;
 
 }
+
+.nohover {
+    text-decoration: none;
+    color: black;
+    
+}
 /*ITENS TRENDING*/
 .separador{
   border-left: 1px solid rgba(68,68,68,0.2);
