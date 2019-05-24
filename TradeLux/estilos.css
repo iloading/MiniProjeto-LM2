@@ -338,10 +338,6 @@ ul.menu li {
 /*
 MODAL
  */
-div.modal .row {
-    margin: 0 !important;
-}
-
 .close {
     padding: 0 !important;
     position: absolute;
@@ -399,8 +395,7 @@ ul.navModal a:active {
 }
 
 .LoginSocial {
-    background-color: white;
-    width: 25%;
+    background-color: orange;
     height: fit-content;
     display: block;
     padding: 0.2rem;
@@ -428,13 +423,13 @@ ul.navModal a:active {
     top: 40%;
 }
 
-.iconSocial {
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate(-70%, -50%);
-    width: 60%;
-    height: auto;
+.iconSocial{
+  width: 16px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
 }
 .footerSocials{
   width: 16px;
