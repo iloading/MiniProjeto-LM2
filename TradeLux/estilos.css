@@ -384,15 +384,6 @@ ul.navModal a:active {
     padding: 1rem 0;
 }
 
-.FraseModal2 {
-    text-align: center;
-    font-size: 1rem;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-}
 
 .LoginSocial {
     background-color: white;
@@ -401,27 +392,6 @@ ul.navModal a:active {
     padding: 0.2rem;
 }
 
-#loginLeft1 {
-    position: absolute !important;
-    left: 20%;
-}
-
-#loginLeft2 {
-    position: absolute !important;
-    left: 20%;
-    top: 40%;
-}
-
-#loginRight1 {
-    position: absolute !important;
-    right: 20%;
-}
-
-#loginRight2 {
-    position: absolute !important;
-    right: 20%;
-    top: 40%;
-}
 
 .iconSocial{
   width: 16px;
@@ -437,23 +407,15 @@ ul.navModal a:active {
 }
 
 .loginForm {
-    padding-right: 2rem;
-    width: 100%;
-    position: absolute;
-    top: 55%;
+
 }
 
-.centrar {
-    text-align: -webkit-center;
-}
 
 .loginForm input[type=password],
 .loginForm input[type=text] {
-    display: block;
-    width: 90%;
     border: 0;
-    text-indent: 0.5rem;
     outline: none;
+
 }
 
 .loginForm button[type=submit] {
@@ -461,17 +423,6 @@ ul.navModal a:active {
     border: 0;
     color: white;
     outline: none;
-    position: absolute;
-    right: 13.8%;
-    top: 120%;
-    width: 25%;
-}
-
-.rememberMe {
-    position: absolute;
-    top: 155%;
-    right: 14%;
-    font-size: 0.7rem;
 }
 
 .resetPass p {
