@@ -425,8 +425,10 @@ ul.navModal a:active {
     outline: none;
 }
 
-.resetPass p {
+.resetPass{
     display: inline;
+    margin: 0 !important;
+    font-size: 0.7rem;
 }
 
 /*Fix para conteúdos não darem shift para a direita quando se abre o modal ;) FIXED*/
