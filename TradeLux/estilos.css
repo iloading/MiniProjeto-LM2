@@ -423,6 +423,7 @@ ul.navModal a:active {
     border: 0;
     color: white;
     outline: none;
+    cursor: pointer; 
 }
 
 .resetPass{
