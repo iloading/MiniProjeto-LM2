@@ -373,11 +373,11 @@ ul.navModal a:active {
     height: 50vh;
 }
 
-.Login a {
+#loginTab a {
     color: black;
 }
 
-.Login a:hover {
+#loginTab a:hover {
     color: black;
 
 }
