@@ -482,3 +482,21 @@ ul.navModal a:active {
 .resetPass p {
     display: inline;
 }
+
+/*Fix para conteúdos não darem shift para a direita quando se abre o modal ;) FIXED*/
+body.modal-open-noscroll
+{
+    margin-right: 0!important;
+    overflow: hidden;
+}
+.modal-open-noscroll .navbar-fixed-top, .modal-open .navbar-fixed-bottom
+{
+    margin-right: 0!important;
+}
+.modal {
+ overflow-y: auto !important;
+}
+
+.modal-open {
+ overflow: auto !important;
+}

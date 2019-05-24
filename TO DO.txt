@@ -1,5 +1,4 @@
-- Home Page:
-	- Footer
+- Home Page
 	-Overlay Login/Register
 
 A nav bar tem de ser sticky nas outras páginas, apesar na index ser fixed.
