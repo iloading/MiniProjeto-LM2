@@ -436,6 +436,10 @@ ul.navModal a:active {
     width: 60%;
     height: auto;
 }
+.footerSocials{
+  width: 16px;
+  height: auto
+}
 
 .loginForm {
     padding-right: 2rem;
