@@ -342,8 +342,13 @@ ul.menu li {
 .close {
     padding: 0 !important;
     position: absolute;
-    top: 10%;
-    right: 6%;
+    top:0;
+    right:0;
+    color: rgb(218, 175, 41) !important;
+    text-shadow: 0 1px 0 rgb(218, 175, 41) !important;
+}
+.close:focus{
+  outline: none;
 }
 
 .tabsTexto {
