@@ -1,7 +1,6 @@
-- Home Page
-	-Overlay Register
-
-A nav bar tem de ser sticky nas outras páginas, apesar na index ser fixed.
-
+trending não está clicky
 - Página Produto
+	- dar fix no carousel
+
+-tirar o forget password do register
 
