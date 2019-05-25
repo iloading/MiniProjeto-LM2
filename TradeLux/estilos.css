@@ -336,13 +336,22 @@ ul.menu li {
 /*About */
 
 
+.aboutitle {
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 100px;
+    text-align: center;
+        
+}
+
 .aboutxt {
-
-    margin-top: 3rem;
+    
+    margin-top: 5rem;
     margin-bottom: 3rem;
-    font-size: 120px
-
-
+    font-size: 20px;
+    text-align: center;
+    
 }
 
 /*MODAL*/
