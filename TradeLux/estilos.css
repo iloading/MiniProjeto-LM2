@@ -366,7 +366,7 @@ ul.navModal a:active {
 .tab-pane {
     display: flex;
     background-color: lightgrey;
-    height: 50vh;
+    height: fit-content;
 }
 
 #loginTab a {
