@@ -494,22 +494,23 @@ body.modal-open-noscroll
 
 /*PRODUTOS*/
 .tradeBtn{
-  font-size: 2rem;
-  background-color: white;
-  border: 2px solid rgb(218, 175, 41);
-  height: fit-content;
+  background-color: white !important;
+  border: 2px solid rgb(218, 175, 41) !important;
+  height: fit-content !important;
+  border-radius: 0 !important;
+
 }
 .tradeBtn:hover{
-  cursor: pointer;
-  transition: 0.5s
+  cursor: pointer !important;
+  transition: 0.5s !important;
 }
 .tradeBtn:active{
-  transition: 0.1s;
-  color: white;
-  background-color: rgb(218, 175, 41);
+  transition: 0.1s !important;
+  color: white !important;
+  background-color: rgb(218, 175, 41) !important;
 }
 .tradeBtn:focus{
-  outline: none;
+  box-shadow: 0 0 0 0 !important;
 }
 
 .alinhamentoVsRow {
