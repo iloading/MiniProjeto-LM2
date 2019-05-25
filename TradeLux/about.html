@@ -174,10 +174,10 @@
 
 
 
-        <footer class="page-footer font-small">
-            <div class="row divisaofooter">
+        <footer class="container-fluid sticky-bottom font-small pb-0">
 
-                <article class="container-fluid col-md-3">
+            <div class="row divisaofooter">
+                <article class="col-md-3">
                     <ul class="list-unstyled produtos">
                         <li>
                             <a class="categoria" href="#!">Cars</a>
@@ -193,7 +193,7 @@
                         </li>
                     </ul>
                 </article>
-                <article class="container-fluid col-md-3">
+                <article class="col-md-3">
                     <ul class="list-unstyled produtos">
                         <li>
                             <a class="categoria" href="#!">Watches</a>
@@ -209,7 +209,7 @@
                         </li>
                     </ul>
                 </article>
-                <article class="container-fluid col-md-3">
+                <article class="col-md-3">
                     <ul class="list-unstyled produtos">
                         <li>
                             <a class="categoria" href="#!">Sneakers</a>
@@ -225,20 +225,20 @@
                         </li>
                     </ul>
                 </article>
-                <article class="container-fluid col-md-3 ">
+                <article class="col-md-3 ">
                     <ul class="list-unstyled menu">
-                        <li>
-                            <a href="#!">Login</a>
-                        </li>
-                        <li>
-                            <a href="#!">Register</a>
-                        </li>
-                        <li>
-                            <a href="#!">About us</a>
-                        </li>
-                        <li>
-                            <a href="#!">Faqs</a>
-                        </li>
+                      <li>
+                          <a data-toggle="modal" data-target="#modal-login" href="">Login</a>
+                      </li>
+                      <li>
+                          <a data-toggle="modal" data-target="#modal-login" href="">Register</a>
+                      </li>
+                      <li>
+                          <a href="about.html">About us</a>
+                      </li>
+                      <li>
+                          <a href="#!">Faqs</a>
+                      </li>
                     </ul>
                 </article>
             </div>
@@ -259,24 +259,27 @@
                     <a href="#"> <img class="img-fluid footerSocials ml-md-2" src="Imagens/android.png" alt=""></a>
                     <a href="#"><img class="img-fluid footerSocials ml-md-2" src="Imagens/apple.png" alt=""></a>
                 </section>
+            </div>
 
-            </div>
-            <div class="CinzentoMaisEscuro lastfooter container-fluid row m-0 p-0 mw-100">
-                <p class="textofinalfooter col-12"> © TradeLux 2019 all rights reserved </p>
-            </div>
+			<div class="row">
+				<div class="col-12 CinzentoMaisEscuro lastfooter m-0 p-0 mw-100">
+					<p class="textofinalfooter col-12"> © TradeLux 2019 all rights reserved </p>
+				</div>
+			</div>
+
         </footer>
 
 
         <div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="modal-header justify-content-center">
+                    <div class="modal-header p-1 justify-content-center">
 
                         <button type="button container-fluid" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <div class="text-center"><img class="img-fluid userLogo w-25" src="Imagens/user.png" alt=""></div>
+                        <div class="text-center"><img class="img-fluid w-25" src="Imagens/user.png" alt=""></div>
 
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body p-0">
                         <div role="tabpanel container-fluid">
                             <!-- Nav tabs -->
                             <ul class="nav nav-tabs row navModal m-0" role="tablist">
@@ -289,86 +292,168 @@
                             </ul>
                             <!-- Tab panes -->
                             <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane" id="registerTab">
+            <!--REGISTER-->  <div role="tabpanel" class="tab-pane container-fluid p-0" id="registerTab">
+                                  <article  class="container-fluid p-0">
 
+                                    <div class="row">
+                                      <p class="FraseModal m-0 col-12">Joining the family? Register now</p>
+                                    </div>
+
+                                    <div class="row mt-2 d-flex justify-content-around">
+                                      <span class="col-1"><!--EMPTY--></span>
+                                      <button href="#" class="col-4 SocialBtn">
+                                          <section id="" class="LoginSocial row">
+                                              <p class="col-9 p-0 pl-1 m-0">Register with</p><span class="col-3 p-0 text-center"><img class="iconSocial" src="Imagens/facebook_login.png" alt=""> </span>
+                                          </section>
+                                      </button>
+                                      <button href="#" class="col-4 SocialBtn">
+                                          <section id="" class="LoginSocial row">
+                                              <p class="col-9 p-0 pl-1 m-0">Register with</p><span class="col-3 p-0 text-center"><img class="iconSocial" src="Imagens/youtube_login.png" alt=""> </span>
+                                          </section>
+                                      </button>
+                                      <span class="col-1"><!--EMPTY--></span>
+                                    </div>
+
+                                        <div class="row mt-2 d-flex justify-content-around">
+                                          <span class="col-1"><!--EMPTY--></span>
+                                          <button href="#" class="col-4 SocialBtn">
+                                              <section id="" class="LoginSocial row">
+                                                  <p class="col-9 p-0 pl-1 m-0">Register with</p><span class="col-3 p-0 text-center"><img class="iconSocial" src="Imagens/twitter_login.png" alt=""> </span>
+                                              </section>
+                                          </button>
+                                          <button href="#" class="col-4 SocialBtn">
+                                              <section id="" class="LoginSocial row">
+                                                  <p class="col-9 p-0 pl-1 m-0">Register with</p><span class="col-3 p-0 text-center"><img class="iconSocial" src="Imagens/instagram_login.png" alt=""> </span>
+                                              </section>
+                                          </button>
+                                          <span class="col-1"><!--EMPTY--></span>
+                                        </div>
+
+                                      <p class="FraseModal2 m-0"></p>
+                                  </article>
+
+                                  <article  class="container-fluid mt-3 p-0">
+
+                                    <div class="row pb-2">
+                                      <p class="text-center m-0 col-12">or with Email</p>
+                                    </div>
+
+                                  <form class="loginForm container-fluid" action="">
+                                      <div class="container-fluid">
+
+                                        <div class="row mb-2 d-flex justify-content-center">
+                                          <input class="col-9 pt-1 pb-1" type="text" placeholder="First Name" name="Fname" required>
+                                        </div>
+
+                                        <div class="row mb-2 d-flex justify-content-center">
+                                          <input class="col-9 pt-1 pb-1" type="text" placeholder="Last Name" name="Lname" required>
+                                        </div>
+
+                                        <div class="row mb-2 d-flex justify-content-center">
+                                          <input class="col-9 pt-1 pb-1" type="text" placeholder="Email" name="email" required>
+                                        </div>
+
+                                        <div class="row mb-2 d-flex justify-content-center">
+                                          <input class="col-9 pt-1 pb-1" type="password" placeholder="Password" name="psw" required>
+                                        </div>
+
+                                        <div class="row mb-3 d-flex justify-content-center">
+                                          <input class="col-9 pt-1 pb-1" type="password" placeholder="Confirm Password" name="Confirmpsw" required>
+                                        </div>
+
+                                        <div class="row p-0 pb-2">
+                                            <span class="col-1"><!--EMPTY--></span>
+                                            <span class="col-4 p-0 resetPass d-flex justify-content-center align-items-center"><input type="checkbox" checked="checked" name="remember"> Remember me</span>
+                                            <span class="col-1"><!--EMPTY--></span>
+                                            <span class="col-5 p-0 resetPass d-flex justify-content-center align-items-center"><input type="checkbox" checked="checked" name="remember"> Subscribe to our Newsletter</span>
+                                            <span class="col-1"><!--EMPTY--></span>
+                                          </div>
+                                          <div class="row m-0 p-0 pb-2">
+                                            <button class="LoginBtn col-12 pt-1" type="submit">Register</button>
+                                          </div>
+
+                                          <div class="row mb-3 d-flex justify-content-center">
+                                              <a href="" class="col-10 text-center resetPass">Temporary amnesia? Get a new password</a>
+                                          </div>
+                                      </div>
+                                  </form>
                                 </div>
-                                <div role="tabpanel" class="tab-pane active container-fluid p-0" id="loginTab">
 
-                                    <article class="container-fluid p-0">
 
-                                        <div class="row">
-                                            <p class="FraseModal m-0 col-12">We knew you would be back soon</p>
-                                        </div>
 
-                                        <div class="row mt-2 d-flex justify-content-around">
-                                            <span class="col-1">
-                                                <!--EMPTY--></span>
-                                            <a href="#" class="col-3">
+                    <!--LOGIN--><div role="tabpanel" class="tab-pane active container-fluid p-0" id="loginTab">
+
+                                    <article  class="container-fluid p-0">
+
+                                      <div class="row">
+                                        <p class="FraseModal m-0 col-12">We knew you would be back soon</p>
+                                      </div>
+
+                                      <div class="row mt-2 d-flex justify-content-around">
+                                        <span class="col-1"><!--EMPTY--></span>
+                                        <button href="#" class="col-3 SocialBtn">
+                                            <section id="" class="LoginSocial row">
+                                                <p class="col-9 p-0 pl-1 m-0">Login via</p><span class="col-3 p-0 text-center"><img class="iconSocial" src="Imagens/facebook_login.png" alt=""> </span>
+                                            </section>
+                                        </button>
+                                        <button href="#" class="col-3 SocialBtn">
+                                            <section id="" class="LoginSocial row">
+                                                <p class="col-9 p-0 pl-1 m-0">Login via</p><span class="col-3 p-0 text-center"><img class="iconSocial" src="Imagens/youtube_login.png" alt=""> </span>
+                                            </section>
+                                        </button>
+                                        <span class="col-1"><!--EMPTY--></span>
+                                      </div>
+
+                                          <div class="row mt-2 d-flex justify-content-around">
+                                            <span class="col-1"><!--EMPTY--></span>
+                                            <button href="#" class="col-3 SocialBtn">
                                                 <section id="" class="LoginSocial row">
-                                                    <p class="col-9 p-0 pl-1 m-0">Login Via</p><span class="col-3 p-0 text-center"><img class="iconSocial" src="Imagens/facebook_login.png" alt=""> </span>
+                                                    <p class="col-9 p-0 pl-1 m-0">Login via</p><span class="col-3 p-0 text-center"><img class="iconSocial" src="Imagens/twitter_login.png" alt=""> </span>
                                                 </section>
-                                            </a>
-                                            <a href="#" class="col-3">
+                                            </button>
+                                            <button href="#" class="col-3 SocialBtn">
                                                 <section id="" class="LoginSocial row">
-                                                    <p class="col-9 p-0 pl-1 m-0">Login Via</p><span class="col-3 p-0 text-center"><img class="iconSocial" src="Imagens/youtube_login.png" alt=""> </span>
+                                                    <p class="col-9 p-0 pl-1 m-0">Login via</p><span class="col-3 p-0 text-center"><img class="iconSocial" src="Imagens/instagram_login.png" alt=""> </span>
                                                 </section>
-                                            </a>
-                                            <span class="col-1">
-                                                <!--EMPTY--></span>
-                                        </div>
+                                            </button>
+                                            <span class="col-1"><!--EMPTY--></span>
+                                          </div>
 
-                                        <div class="row mt-2 d-flex justify-content-around">
-                                            <span class="col-1">
-                                                <!--EMPTY--></span>
-                                            <a href="#" class="col-3">
-                                                <section id="" class="LoginSocial row">
-                                                    <p class="col-9 p-0 pl-1 m-0">Login Via</p><span class="col-3 p-0 text-center"><img class="iconSocial" src="Imagens/twitter_login.png" alt=""> </span>
-                                                </section>
-                                            </a>
-                                            <a href="#" class="col-3">
-                                                <section id="" class="LoginSocial row">
-                                                    <p class="col-9 p-0 pl-1 m-0">Login Via</p><span class="col-3 p-0 text-center"><img class="iconSocial" src="Imagens/instagram_login.png" alt=""> </span>
-                                                </section>
-                                            </a>
-                                            <span class="col-1">
-                                                <!--EMPTY--></span>
-                                        </div>
-
-                                        <p class="FraseModal2 m-0">Antisocial? Login with email instead</p>
+                                        <p class="FraseModal2 m-0"></p>
                                     </article>
 
+                                    <article  class="container-fluid mt-3 p-0">
 
-                                    <form class="loginForm" action="action_page.php">
-                                        <div class="container">
-                                            <div class="centrar">
-                                                <label for="uname"></label>
-                                                <input type="text" placeholder="Email" name="uname" required>
+                                      <div class="row">
+                                        <p class="FraseModal m-0 col-12">Antisocial? Login with email instead</p>
+                                      </div>
 
-                                                <label for="psw"></label>
-                                                <input type="password" placeholder="Password" name="psw" required>
-                                            </div>
+                                    <form class="loginForm container-fluid" action="">
+                                        <div class="container-fluid">
+                                          <div class="row mb-2 d-flex justify-content-center">
+                                            <input class="col-9 pt-1 pb-1" type="text" placeholder="Email" name="uname" required>
+                                          </div>
 
+                                          <div class="row mb-3 d-flex justify-content-center">
+                                            <input class="col-9 pt-1 pb-1" type="password" placeholder="Password" name="psw" required>
+                                          </div>
 
-                                            <button type="submit">Login</button>
-                                            <label class="rememberMe">
-                                                <input type="checkbox" checked="checked" name="remember"> Remember me
-                                            </label>
-                                            <div class="resetPass">
-                                                <p>Temporary amnesia?</p>
-                                                <p>Get a new password</p>
+                                          <div class="row mb-3 d-flex justify-content-center">
+                                            <span class="col-4 p-0 resetPass d-flex justify-content-center align-items-center"><input type="checkbox" checked="checked" name="remember"> Remember me</span>
+
+                                            <button class="LoginBtn col-5 pt-1 pb-1" type="submit">Login</button>
+                                          </div>
+
+                                            <div class="row mb-3 d-flex justify-content-center">
+                                                <a href="" class="col-12 text-center resetPass">Temporary amnesia? Get a new password</a>
                                             </div>
                                         </div>
                                     </form>
-
-                                </div>
+                                  </div>
                             </div>
                         </div>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary save">Save changes</button>
-                    </div>
-                </div>
+                  </div>
             </div>
         </div>
 

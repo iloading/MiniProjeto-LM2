@@ -24,6 +24,7 @@ body {
 }
 
 
+
 /*SECÇÕES*/
 /*NAV*/
 #scroll {
@@ -351,8 +352,16 @@ ul.menu li {
 .close {
     padding: 0 !important;
     position: absolute;
-    top: 10%;
-    right: 6%;
+    top:0;
+    right:0;
+    color: rgb(218, 175, 41) !important;
+    text-shadow: 0 1px 0 rgb(218, 175, 41) !important;
+}
+.close:focus{
+  outline: none;
+}
+.close:active{
+  color: white !important;
 }
 
 .tabsTexto {
@@ -376,14 +385,20 @@ ul.navModal a:active {
 .tab-pane {
     display: flex;
     background-color: lightgrey;
-    height: 50vh;
+    height: fit-content;
 }
 
 #loginTab a {
     color: black;
 }
+#registerTab   a {
+    color: black;
+}
 
 #loginTab a:hover {
+    color: black;
+}
+#registerTab a:hover {
     color: black;
 
 }
@@ -401,6 +416,19 @@ ul.navModal a:active {
     display: block;
     padding: 0.2rem;
 }
+.SocialBtn{
+  background-color: white;
+  border: 1px solid white;;
+}
+.SocialBtn:hover{
+  cursor: pointer;
+}
+.SocialBtn:active{
+  border: 1px solid lightgrey;
+}
+.SocialBtn:focus{
+  outline: inherit;
+}
 
 
 .iconSocial{
@@ -414,10 +442,6 @@ ul.navModal a:active {
 .footerSocials{
   width: 16px;
   height: auto
-}
-
-.loginForm {
-
 }
 
 
@@ -434,6 +458,14 @@ ul.navModal a:active {
     color: white;
     outline: none;
     cursor: pointer;
+    border: 2px solid rgb(218, 175, 41);
+}
+.loginForm button[type=submit]:active {
+    transition: 0.1s;
+    border: 0;
+    border: 2px solid lightgrey;
+    outline: none;
+    cursor: pointer;
 }
 
 .resetPass{
@@ -442,7 +474,7 @@ ul.navModal a:active {
     font-size: 0.7rem;
 }
 
-/*Fix para conteúdos não darem shift para a direita quando se abre o modal ;) FIXED*/
+/*Fix para conteúdos não darem shift para a direita quando se abre o modal do login ;) FIXED*/
 body.modal-open-noscroll
 {
     margin-right: 0!important;
