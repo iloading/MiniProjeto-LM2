@@ -220,10 +220,10 @@ nav-item {
 /*Search*/
 
 .linhas{
-    
+
     margin-top: 5rem;
     margin-bottom: 5rem;
-    
+
 }
 
 
@@ -515,3 +515,5 @@ body.modal-open-noscroll
 .alinhamentoVsRow {
   padding-left: 15px
 }
+
+/*Carousel c/ thumbnail*/
