@@ -216,6 +216,16 @@ nav-item {
     opacity: 1;
 }
 
+/*Search*/
+
+.linhas{
+    
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+}
+
+
 /*FOOTER*/
 footer {
     color: rgb(239, 239, 239);
