@@ -23,10 +23,11 @@ function slt(a) {
   console.log(ult6);
 
   if (ult6 == 'to.png') {
-    document.getElementById(a).src='./Imagens/preenchido.png';
+    document.getElementById(a).src='./Imagens/preenchido.png'; /*./Imagens/preenchido_preto.png*/ /*NOVAS IMAGENS*/
   } else {
-    document.getElementById(a).src='./Imagens/aberto.png';
+    document.getElementById(a).src='./Imagens/aberto.png';  /*./Imagens/aberto_preto.png */ /*NOVAS IMAGENS*/
   }
+
 }
 
 
