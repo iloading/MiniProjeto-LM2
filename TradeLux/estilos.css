@@ -23,6 +23,7 @@ body {
     background-color: rgb(56, 56, 56)
 }
 
+
 /*SECÇÕES*/
 /*NAV*/
 #scroll {
@@ -222,6 +223,13 @@ footer {
     padding: 1rem;
     margin-top: 5rem;
 }
+.page-footer-product{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 
 footer a {
     text-decoration: none;
@@ -304,6 +312,12 @@ ul.menu li {
     color: darkgray;
 }
 
+.followapps {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: darkgray;
+}
+
 .facebookfooter {
     position: absolute;
     margin-left: 17rem;
@@ -315,43 +329,15 @@ ul.menu li {
 
 
 .aboutxt {
-    
+
     margin-top: 3rem;
     margin-bottom: 3rem;
     font-size: 120px
-    
-    
+
+
 }
 
-
-
-/*Products */
-
-.nomedeproducto {
-
-    top: 8%
-}
-
-.preco {
-
-    top: 14%
-}
-
-.butoes {
-
-    top: 20%
-}
-
-.followapps {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-left: 11rem;
-    color: darkgray;
-}
-
-/*
-MODAL
- */
+/*MODAL*/
 .close {
     padding: 0 !important;
     position: absolute;
@@ -437,7 +423,7 @@ ul.navModal a:active {
     border: 0;
     color: white;
     outline: none;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .resetPass{
@@ -462,4 +448,28 @@ body.modal-open-noscroll
 
 .modal-open {
  overflow: auto !important;
+}
+
+/*PRODUTOS*/
+.tradeBtn{
+  font-size: 2rem;
+  background-color: white;
+  border: 2px solid rgb(218, 175, 41);
+  height: fit-content;
+}
+.tradeBtn:hover{
+  cursor: pointer;
+  transition: 0.5s
+}
+.tradeBtn:active{
+  transition: 0.1s;
+  color: white;
+  background-color: rgb(218, 175, 41);
+}
+.tradeBtn:focus{
+  outline: none;
+}
+
+.alinhamentoVsRow {
+  padding-left: 15px
 }
