@@ -350,6 +350,9 @@ ul.menu li {
 .close:focus{
   outline: none;
 }
+.close:active{
+  color: white !important;
+}
 
 .tabsTexto {
     font-size: 1.5rem;
