@@ -216,7 +216,7 @@ nav-item {
 
 /*Search*/
 
-.linhas{
+.linhas {
 
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -231,11 +231,12 @@ footer {
     padding: 1rem;
     margin-top: 5rem;
 }
-.page-footer-product{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+
+.page-footer-product {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 
@@ -342,32 +343,34 @@ ul.menu li {
     margin-bottom: 1rem;
     font-size: 100px;
     text-align: center;
-        
+
 }
 
 .aboutxt {
-    
+
     margin-top: 5rem;
     margin-bottom: 3rem;
     font-size: 20px;
     text-align: center;
-    
+
 }
 
 /*MODAL*/
 .close {
     padding: 0 !important;
     position: absolute;
-    top:0;
-    right:0;
+    top: 0;
+    right: 0;
     color: rgb(218, 175, 41) !important;
     text-shadow: 0 1px 0 rgb(218, 175, 41) !important;
 }
-.close:focus{
-  outline: none;
+
+.close:focus {
+    outline: none;
 }
-.close:active{
-  color: white !important;
+
+.close:active {
+    color: white !important;
 }
 
 .tabsTexto {
@@ -397,13 +400,15 @@ ul.navModal a:active {
 #loginTab a {
     color: black;
 }
-#registerTab   a {
+
+#registerTab a {
     color: black;
 }
 
 #loginTab a:hover {
     color: black;
 }
+
 #registerTab a:hover {
     color: black;
 
@@ -422,32 +427,38 @@ ul.navModal a:active {
     display: block;
     padding: 0.2rem;
 }
-.SocialBtn{
-  background-color: white;
-  border: 1px solid white;;
+
+.SocialBtn {
+    background-color: white;
+    border: 1px solid white;
+    ;
 }
-.SocialBtn:hover{
-  cursor: pointer;
+
+.SocialBtn:hover {
+    cursor: pointer;
 }
-.SocialBtn:active{
-  border: 1px solid lightgrey;
+
+.SocialBtn:active {
+    border: 1px solid lightgrey;
 }
-.SocialBtn:focus{
-  outline: inherit;
+
+.SocialBtn:focus {
+    outline: inherit;
 }
 
 
-.iconSocial{
-  width: 16px;
-  height: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%)
+.iconSocial {
+    width: 16px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
-.footerSocials{
-  width: 16px;
-  height: auto
+
+.footerSocials {
+    width: 16px;
+    height: auto
 }
 
 
@@ -466,6 +477,7 @@ ul.navModal a:active {
     cursor: pointer;
     border: 2px solid rgb(218, 175, 41);
 }
+
 .loginForm button[type=submit]:active {
     transition: 0.1s;
     border: 0;
@@ -474,53 +486,57 @@ ul.navModal a:active {
     cursor: pointer;
 }
 
-.resetPass{
+.resetPass {
     display: inline;
     margin: 0 !important;
     font-size: 0.7rem;
 }
 
 /*Fix para conteúdos não darem shift para a direita quando se abre o modal do login ;) FIXED*/
-body.modal-open-noscroll
-{
-    margin-right: 0!important;
+body.modal-open-noscroll {
+    margin-right: 0 !important;
     overflow: hidden;
 }
-.modal-open-noscroll .navbar-fixed-top, .modal-open .navbar-fixed-bottom
-{
-    margin-right: 0!important;
+
+.modal-open-noscroll .navbar-fixed-top,
+.modal-open .navbar-fixed-bottom {
+    margin-right: 0 !important;
 }
+
 .modal {
- overflow-y: auto !important;
+    overflow-y: auto !important;
 }
 
 .modal-open {
- overflow: auto !important;
+    overflow: auto !important;
 }
 
 /*PRODUTOS*/
-.tradeBtn{
-  background-color: white !important;
-  border: 2px solid rgb(218, 175, 41) !important;
-  height: fit-content !important;
-  border-radius: 0 !important;
+.tradeBtn {
+    background-color: white !important;
+    border: 2px solid rgb(218, 175, 41) !important;
+    height: fit-content !important;
+    border-radius: 0 !important;
 
 }
-.tradeBtn:hover{
-  cursor: pointer !important;
-  transition: 0.5s !important;
+
+.tradeBtn:hover {
+    cursor: pointer !important;
+    transition: 0.5s !important;
 }
-.tradeBtn:active{
-  transition: 0.1s !important;
-  color: white !important;
-  background-color: rgb(218, 175, 41) !important;
+
+.tradeBtn:active {
+    transition: 0.1s !important;
+    color: white !important;
+    background-color: rgb(218, 175, 41) !important;
 }
-.tradeBtn:focus{
-  box-shadow: 0 0 0 0 !important;
+
+.tradeBtn:focus {
+    box-shadow: 0 0 0 0 !important;
 }
 
 .alinhamentoVsRow {
-  padding-left: 15px
+    padding-left: 15px
 }
 
 /*Carousel c/ thumbnail*/
