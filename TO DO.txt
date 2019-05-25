@@ -2,5 +2,6 @@ trending não está clicky
 - Página Produto
 	- dar fix no carousel
 
--tirar o forget password do register
+-tirar o forget password do register modal
+- compor search , tem largura a mais e faz scroll lateral
 
