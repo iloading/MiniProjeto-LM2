@@ -186,13 +186,10 @@ nav-item {
 }
 
 .iconTrend {
-    width: 10%;
-    color: white;
     position: absolute;
     top: 0;
     left: 0;
     text-align: center;
-    transition: 0.5s ease;
     top: 50%;
     left: 30%;
     transform: translate(-50%, -50%);
