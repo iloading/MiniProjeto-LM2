@@ -27,10 +27,26 @@ function slt(a) {
   } else {
     document.getElementById(a).src='./Imagens/aberto.png';  /*./Imagens/aberto_preto.png */ /*NOVAS IMAGENS*/
   }
-
 }
 
+/*MÁQUINA DE ESTADOS para coração preto*//*Feito pelo professor Hélder Caixinha*/
+var estado = 0;
 
+function slt2(a) {
+  console.log(a);
+
+  var x =  document.getElementById(a).src
+  console.log (document.getElementById(a).src);
+
+  var ult12 =  x.substr(x.length - 12);
+  console.log(ult12);
+
+  if (ult12 == 'to_preto.png') {
+    document.getElementById(a).src='./Imagens/preenchido_preto.png'; /*./Imagens/preenchido_preto.png*/ /*NOVAS IMAGENS*/
+  } else {
+    document.getElementById(a).src='./Imagens/aberto_preto.png';  /*./Imagens/aberto_preto.png */ /*NOVAS IMAGENS*/
+  }
+}
 
 /*Carousel*/
 var $item = $('.carousel-item');

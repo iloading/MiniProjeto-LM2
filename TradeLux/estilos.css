@@ -391,6 +391,19 @@ ul.navModal a:active {
     display: block;
     padding: 0.2rem;
 }
+.SocialBtn{
+  background-color: white;
+  border: 1px solid white;;
+}
+.SocialBtn:hover{
+  cursor: pointer;
+}
+.SocialBtn:active{
+  border: 1px solid lightgrey;
+}
+.SocialBtn:focus{
+  outline: inherit;
+}
 
 
 .iconSocial{
@@ -404,10 +417,6 @@ ul.navModal a:active {
 .footerSocials{
   width: 16px;
   height: auto
-}
-
-.loginForm {
-
 }
 
 
@@ -424,6 +433,14 @@ ul.navModal a:active {
     color: white;
     outline: none;
     cursor: pointer;
+    border: 2px solid rgb(218, 175, 41);
+}
+.loginForm button[type=submit]:active {
+    transition: 0.1s;
+    border: 0;
+    border: 2px solid lightgrey;
+    outline: none;
+    cursor: pointer;
 }
 
 .resetPass{
@@ -432,7 +449,7 @@ ul.navModal a:active {
     font-size: 0.7rem;
 }
 
-/*Fix para conteúdos não darem shift para a direita quando se abre o modal ;) FIXED*/
+/*Fix para conteúdos não darem shift para a direita quando se abre o modal do login ;) FIXED*/
 body.modal-open-noscroll
 {
     margin-right: 0!important;
