@@ -24,6 +24,7 @@ body {
 }
 
 
+
 /*SECÇÕES*/
 /*NAV*/
 #scroll {
@@ -372,8 +373,14 @@ ul.navModal a:active {
 #loginTab a {
     color: black;
 }
+#registerTab   a {
+    color: black;
+}
 
 #loginTab a:hover {
+    color: black;
+}
+#registerTab a:hover {
     color: black;
 
 }
