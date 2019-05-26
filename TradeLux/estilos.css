@@ -43,7 +43,9 @@ nav {
 
 
 
-
+.linksNav{
+  width: 35vw;
+}
 .nav-link {
     color: rgb(68, 68, 68);
     font-size: 1.1rem;
@@ -63,7 +65,7 @@ nav {
 /*EFEITO HOVER*/
 /*SEARCH BOX*/
 .search-box {
-  position: relative; 
+  position: relative;
     box-sizing: content-box;
     background: rgb(239, 239, 239);
     width: fit-content;
