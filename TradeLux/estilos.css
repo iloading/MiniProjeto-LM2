@@ -529,3 +529,17 @@ body.modal-open-noscroll {
 .alinhamentoVsRow {
     padding-left: 15px
 }
+/*MEDIA QUERIES*/
+@media (min-width: 576px){
+  .card-deck{
+    -ms-flex-flow: column !important;
+    flex-flow: column!important;
+  }
+}
+@media (min-width: 768px){
+  .card-deck{
+    -ms-flex-flow: row wrap !important;
+    flex-flow: row wrap!important;
+
+  }
+}
