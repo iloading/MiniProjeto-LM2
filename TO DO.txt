@@ -1,9 +1,7 @@
-trending não está clicky
-- Página Produto
-	- dar fix no carousel
 
--tirar o forget password do register modal
 
-PÁGINAS SEARCH TÊM SCROLL LATERAL - NEED FIX
+
+
+
 
 
