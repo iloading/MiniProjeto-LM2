@@ -35,7 +35,7 @@ body {
 
 nav {
     top: 0;
-    height: 5rem;
+    padding: 1rem !important;
     border: 2px solid rgb(218, 175, 41);
     width: 100%;
     z-index: 1;
