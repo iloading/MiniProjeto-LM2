@@ -1,2 +1,7 @@
 - heart pixeliza e move-se quando hover na trending;
 -bottom : 0 no .lastfooter ????????????????????;
+
+
+BUG 1- Ao inicar a página em desktop pela primeira vez, o carousel não ocupa a altura total do viewport ( o que é suposto ), isto é facilmente contornável com a atualização da página (F5).
+
+BUG 2-Ao passar da versão desktop (md lg e xl) para mobile (xs e sm), o body fica aleatoriamente com uma margin de fundo e margin lateral. Esta questão não é fixed pela atualização da página, no entanto só parece ser fixed quando se clica no logo 
