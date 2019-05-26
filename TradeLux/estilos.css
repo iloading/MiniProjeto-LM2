@@ -51,6 +51,9 @@ nav {
 }
 
 /*DESENVOLVER ANIMAÇÃO HOVER*/
+.tabs{
+  text-align: -webkit-center; 
+}
 nav .tabs a {
   border-bottom: 2px solid white;
 }
@@ -261,7 +264,7 @@ footer a {
 
 .producttitle{
     margin-top: 1rem;
-    
+
 }
 
 footer .produtos a {
