@@ -1,288 +1,279 @@
 body {
-    font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 /*CORES*/
 .AmareloPrincipal {
-    color: rgb(218, 175, 41)
+  color: rgb(218, 175, 41)
 }
 
 .AmareloClaro {
-    color: rgb(231, 205, 96)
+  color: rgb(231, 205, 96)
 }
 
 .CinzentoClaro {
-    color: rgb(239, 239, 239)
+  color: rgb(239, 239, 239)
 }
 
 .CinzentoEscuro {
-    color: rgb(68, 68, 68)
+  color: rgb(68, 68, 68)
 }
 
 .CinzentoMaisEscuro {
-    background-color: rgb(56, 56, 56)
+  background-color: rgb(56, 56, 56)
 }
 
 /*SECÇÕES*/
 /*NAV*/
 #scroll {
-    position: fixed;
-    top: 0;
-    transition: top 0.4s ease-in-out;
+  position: fixed;
+  top: 0;
+  transition: top 0.4s ease-in-out;
 }
 
 nav {
-    top: 0;
-    padding: 1rem !important;
-    border: 2px solid rgb(218, 175, 41);
-    width: 100%;
-    z-index: 3;
+  top: 0;
+  padding: 1rem !important;
+  border: 2px solid rgb(218, 175, 41);
+  width: 100%;
+  z-index: 3;
 }
 
 .searchEuser {
-    margin-top: 1rem !important;
-    padding-top: .5rem !important;
-    border-top: 1px solid rgb(218, 175, 41) !important;
+  margin-top: 1rem !important;
+  padding-top: .5rem !important;
+  border-top: 1px solid rgb(218, 175, 41) !important;
 }
 
 .nav-link {
-    color: rgb(68, 68, 68);
-    font-size: 1.1rem;
+  color: rgb(68, 68, 68);
+  font-size: 1.1rem;
 }
 
 /*DESENVOLVER ANIMAÇÃO HOVER*/
 nav .tabs a {
-    border-bottom: 2px solid white;
+  border-bottom: 2px solid white;
 }
 
 /*DESENVOLVER ANIMAÇÃO HOVER*/
 nav .tabs a:hover {
-    color: rgb(218, 175, 41) !important;
-    border-bottom: 2px solid rgb(218, 175, 41);
+  color: rgb(218, 175, 41) !important;
+  border-bottom: 2px solid rgb(218, 175, 41);
 }
 
 /*EFEITO HOVER*/
 /*SEARCH BOX*/
 .search-box {
-    position: relative;
-    box-sizing: content-box;
-    color: black;
-    background: rgb(239, 239, 239);
-    width: fit-content;
-    height: 30px;
-    border-radius: 40px;
-    padding: 10px;
+  position: relative;
+  box-sizing: content-box;
+  color: black;
+  background: rgb(239, 239, 239);
+  width: fit-content;
+  height: 30px;
+  border-radius: 40px;
+  padding: 10px;
 }
 
-.search-box:hover > .search-txt {
-    width: 150px;
-    padding: 0 15px;
+.search-box:hover>.search-txt {
+  width: 150px;
+  padding: 0 15px;
 }
 
-.search-box:hover > .search-btn {
-    background: white;
-    color: rgb(218, 175, 41);
+.search-box:hover>.search-btn {
+  background: white;
+  color: rgb(218, 175, 41);
 }
 
 .search-btn {
-    float: right;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: rgb(239, 239, 239);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s;
-    color: rgb(68, 68, 68);
-    cursor: pointer;
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgb(239, 239, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  color: rgb(68, 68, 68);
+  cursor: pointer;
 }
 
-.search-btn > i {
-    font-size: 30px;
+.search-btn>i {
+  font-size: 30px;
 }
 
 .search-txt {
-    border: none;
-    background: none;
-    outline: none;
-    float: left;
-    padding: 0;
-    color: rgb(68, 68, 68);
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 30px;
-    width: 0px;
-    font-weight: regular;
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: rgb(68, 68, 68);
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 30px;
+  width: 0px;
+  font-weight: regular;
 }
 
 /*Utilizador*/
 .userLogo {
-    width: 32px;
-    cursor: pointer;
+  width: 32px;
+  cursor: pointer;
 }
 
 .full-screen {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*RETANGULO CENTRAL*/
-.carousel-control-next,
-.carousel-control-prev {
-    z-index: 2;
-    width: 10% !important;
+.carousel-control-next, .carousel-control-prev {
+  z-index: 2;
+  width: 10% !important;
 }
 
-.carousel-indicators-bg,
-.carousel-control-prev1,
-.carousel-control-next {
-    background-color: rgba(0, 0, 0, 0.1) !important;
-    margin-bottom: 0;
+.carousel-indicators-bg, .carousel-control-prev1, .carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  margin-bottom: 0;
 }
 
-.carousel-control-prev:hover,
-.carousel-control-prev:active,
-.carousel-control-next:hover,
-.carousel-control-next:active {
-    background-color: rgba(255, 255, 255, 0.1) !important;
+.carousel-control-prev:hover, .carousel-control-prev:active, .carousel-control-next:hover, .carousel-control-next:active {
+  background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
-.carousel-control-prev1:hover,
-.carousel-control-prev1:active,
-.carousel-control-next1:hover,
-.carousel-control-next1:active {
-    background-color: rgba(0, 0, 0, 0.1) !important;
+.carousel-control-prev1:hover, .carousel-control-prev1:active, .carousel-control-next1:hover, .carousel-control-next1:active {
+  background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
 .Trade {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: rgb(68, 68, 68);
-    font-size: 3rem;
-    letter-spacing: 0.5rem;
-    line-height: 3.5rem;
-    font-weight: 500;
-    background-color: rgba(239, 239, 239, 0.8);
-    padding: 1.5rem 0;
-    z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(68, 68, 68);
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  line-height: 3.5rem;
+  font-weight: 500;
+  background-color: rgba(239, 239, 239, 0.8);
+  padding: 1.5rem 0;
+  z-index: 1;
 }
 
 /*TRENDING*/
 .trending {
-    margin: 0;
-    height: 7rem;
-    background-color: white;
+  margin: 0;
+  height: 7rem;
+  background-color: white;
 }
 
 .nohover {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 /*ITENS TRENDING*/
 .separador {
-    border-left: 1px solid rgba(68, 68, 68, 0.2);
-    border-right: 1px solid rgba(68, 68, 68, 0.2);
+  border-left: 1px solid rgba(68, 68, 68, 0.2);
+  border-right: 1px solid rgba(68, 68, 68, 0.2);
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-    background: rgba(0, 0, 0, 0.5);
-    color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: 0.5s ease;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 0.5s ease;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 0;
 }
 
 .iconTrend {
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-align: center;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 0;
 }
 
 .iconTrend:hover {
-    color: rgb(231, 205, 96);
-    transition: .5s;
+  color: rgb(231, 205, 96);
+  transition: .5s;
 }
 
 .efeito:hover .imgTrend {
-    opacity: 1;
+  opacity: 1;
 }
 
 .efeito:hover .overlay {
-    opacity: 1;
+  opacity: 1;
 }
 
 .efeito:hover .iconTrend {
-    opacity: 1;
+  opacity: 1;
 }
 
 /*Search*/
 .linhas {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 /*FOOTER*/
 footer {
-    color: rgb(239, 239, 239);
-    background-color: rgb(68, 68, 68);
-    padding: 1rem;
-    margin-top: 5rem;
+  color: rgb(239, 239, 239);
+  background-color: rgb(68, 68, 68);
+  padding: 1rem;
+  margin-top: 5rem;
 }
 
 .page-footer-product {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 footer a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .produtos {
-    display: inline-block;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.producttitle {
+.producttitle{
     margin-top: 1rem;
-
+    
 }
 
 footer .produtos a {
-    color: darkgray;
+  color: darkgray;
 }
 
 footer a.categoria {
-    color: white;
+  color: white;
 }
 
 footer .menu a {
-    color: white;
+  color: white;
 }
 
 footer a:link {}
@@ -290,107 +281,107 @@ footer a:link {}
 footer a:visited {}
 
 footer a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 footer a:active {}
 
 .categoria {
-    display: inline;
-    font-size: 1.5rem;
-    border-bottom: 1px solid rgb(218, 175, 41);
+  display: inline;
+  font-size: 1.5rem;
+  border-bottom: 1px solid rgb(218, 175, 41);
 }
 
 .trendingtitle {
-    display: inline;
-    font-size: 2rem;
-    border-bottom: 1px solid rgb(218, 175, 41);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
+  display: inline;
+  font-size: 2rem;
+  border-bottom: 1px solid rgb(218, 175, 41);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
 }
 
 ul.produtos li {
-    padding-top: 0.5rem;
-    line-height: 2rem;
+  padding-top: 0.5rem;
+  line-height: 2rem;
 }
 
 ul.menu li {
-    padding-bottom: 0.3rem;
-    font-size: 1.5rem;
-    text-align: center;
+  padding-bottom: 0.3rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .Footericons {
-    display: flex;
-    justify-content: center !important;
+  display: flex;
+  justify-content: center !important;
 }
 
 .lastfooter {
-    position: absolute;
-    left: 0;
+  position: absolute;
+  left: 0;
 }
 
 .divisaofooter {
-    border-bottom: 1px solid rgb(218, 175, 41);
+  border-bottom: 1px solid rgb(218, 175, 41);
 }
 
 .textofinalfooter {
-    text-align: center;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    color: darkgray;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: darkgray;
 }
 
 .followapps {
-    display: none;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    color: darkgray;
+  display: none;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: darkgray;
 }
 
 .facebookfooter {
-    position: absolute;
-    margin-left: 17rem;
-    margin-bottom: 0rem;
-    margin-top: 0rem;
+  position: absolute;
+  margin-left: 17rem;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
 }
 
 /*About */
 .aboutitle {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-size: 7rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 7rem;
 }
 
 .aboutxt {
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-    font-size: 20px;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  font-size: 20px;
 }
 
 /*MODAL*/
 .close {
-    padding: 0 !important;
-    position: absolute;
-    top: 0;
-    right: 0;
-    color: rgb(218, 175, 41) !important;
-    text-shadow: 0 1px 0 rgb(218, 175, 41) !important;
+  padding: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: rgb(218, 175, 41) !important;
+  text-shadow: 0 1px 0 rgb(218, 175, 41) !important;
 }
 
 .close:focus {
-    outline: none;
+  outline: none;
 }
 
 .close:active {
-    color: white !important;
+  color: white !important;
 }
 
 .tabsTexto {
-    font-size: 1.5rem;
-    color: darkgray;
+  font-size: 1.5rem;
+  color: darkgray;
 }
 
 ul.navModal a:link {}
@@ -398,183 +389,183 @@ ul.navModal a:link {}
 ul.navModal a:visited {}
 
 ul.navModal a:hover {
-    text-decoration: none;
-    color: rgb(218, 175, 41);
+  text-decoration: none;
+  color: rgb(218, 175, 41);
 }
 
 ul.navModal a:active {
-    color: black;
+  color: black;
 }
 
 .tab-pane {
-    display: flex;
-    background-color: lightgrey;
-    height: fit-content;
+  display: flex;
+  background-color: lightgrey;
+  height: fit-content;
 }
 
 #loginTab a {
-    color: black;
+  color: black;
 }
 
 #registerTab a {
-    color: black;
+  color: black;
 }
 
 #loginTab a:hover {
-    color: black;
+  color: black;
 }
 
 #registerTab a:hover {
-    color: black;
+  color: black;
 }
 
 .FraseModal {
-    text-align: center;
-    font-size: 1rem;
-    padding: 1rem 0;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem 0;
 }
 
 .LoginSocial {
-    background-color: white;
-    height: fit-content;
-    display: block;
-    padding: 0.2rem;
+  background-color: white;
+  height: fit-content;
+  display: block;
+  padding: 0.2rem;
 }
 
 .SocialBtn {
-    background-color: white;
-    border: 1px solid white;
-    ;
+  background-color: white;
+  border: 1px solid white;
+  ;
 }
 
 .SocialBtn:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .SocialBtn:active {
-    border: 1px solid lightgrey;
+  border: 1px solid lightgrey;
 }
 
 .SocialBtn:focus {
-    outline: inherit;
+  outline: inherit;
 }
 
 .iconSocial {
-    width: 16px;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
+  width: 16px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
 }
 
 .footerSocials {
-    width: 16px;
-    height: auto
+  width: 16px;
+  height: auto
 }
 
 .loginForm input[type=password],
 .loginForm input[type=text] {
-    border: 0;
-    outline: none;
+  border: 0;
+  outline: none;
 }
 
 .loginForm button[type=submit] {
-    background-color: rgb(218, 175, 41);
-    border: 0;
-    color: white;
-    outline: none;
-    cursor: pointer;
-    border: 2px solid rgb(218, 175, 41);
+  background-color: rgb(218, 175, 41);
+  border: 0;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border: 2px solid rgb(218, 175, 41);
 }
 
 .loginForm button[type=submit]:active {
-    transition: 0.1s;
-    border: 0;
-    border: 2px solid lightgrey;
-    outline: none;
-    cursor: pointer;
+  transition: 0.1s;
+  border: 0;
+  border: 2px solid lightgrey;
+  outline: none;
+  cursor: pointer;
 }
 
 .resetPass {
-    display: inline;
-    margin: 0 !important;
-    font-size: 0.7rem;
+  display: inline;
+  margin: 0 !important;
+  font-size: 0.7rem;
 }
 
 /*Fix para conteúdos não darem shift para a direita quando se abre o modal do login ;) FIXED*/
 body.modal-open-noscroll {
-    margin-right: 0 !important;
-    overflow: hidden;
+  margin-right: 0 !important;
+  overflow: hidden;
 }
 
 .modal-open-noscroll .navbar-fixed-top,
 .modal-open .navbar-fixed-bottom {
-    margin-right: 0 !important;
+  margin-right: 0 !important;
 }
 
 .modal {
-    overflow-y: auto !important;
+  overflow-y: auto !important;
 }
 
 .modal-open {
-    overflow: auto !important;
+  overflow: auto !important;
 }
 
 /*PRODUTOS*/
 .tradeBtn {
-    background-color: white !important;
-    border: 2px solid rgb(218, 175, 41) !important;
-    height: fit-content !important;
-    border-radius: 0 !important;
+  background-color: white !important;
+  border: 2px solid rgb(218, 175, 41) !important;
+  height: fit-content !important;
+  border-radius: 0 !important;
 }
 
 .tradeBtn:hover {
-    cursor: pointer !important;
-    transition: 0.5s !important;
+  cursor: pointer !important;
+  transition: 0.5s !important;
 }
 
 .tradeBtn:active {
-    transition: 0.1s !important;
-    color: white !important;
-    background-color: rgb(218, 175, 41) !important;
+  transition: 0.1s !important;
+  color: white !important;
+  background-color: rgb(218, 175, 41) !important;
 }
 
 .tradeBtn:focus {
-    box-shadow: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
 }
 
 .alinhamentoVsRow {
-    padding-left: 15px
+  padding-left: 15px
 }
 
 /*MEDIA QUERIES*/
 @media (min-width: 576px) {
-    .card-deck {
-        -ms-flex-flow: column !important;
-        flex-flow: column !important;
-    }
+  .card-deck {
+    -ms-flex-flow: column !important;
+    flex-flow: column !important;
+  }
 
-    .followapps {
-        display: block !important;
-    }
+  .followapps {
+    display: block !important;
+  }
 
-    .Footericons {
-        display: inherit;
-        justify-content: left !important;
-        align-items: center;
-    }
+  .Footericons {
+    display: inherit;
+    justify-content: left !important;
+    align-items: center;
+  }
 }
 
 @media (min-width: 768px) {
-    .card-deck {
-        -ms-flex-flow: row wrap !important;
-        flex-flow: row wrap !important;
-    }
+  .card-deck {
+    -ms-flex-flow: row wrap !important;
+    flex-flow: row wrap !important;
+  }
 
-    .searchEuser {
-        margin-top: 0rem !important;
-        padding-top: 0rem !important;
-        border-top: none !important;
-    }
+  .searchEuser {
+    margin-top: 0rem !important;
+    padding-top: 0rem !important;
+    border-top: none !important;
+  }
 }
