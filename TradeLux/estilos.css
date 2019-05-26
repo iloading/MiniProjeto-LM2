@@ -52,7 +52,7 @@ nav {
 
 /*DESENVOLVER ANIMAÇÃO HOVER*/
 .tabs{
-  text-align: -webkit-center; 
+  text-align: -webkit-center;
 }
 nav .tabs a {
   border-bottom: 2px solid white;
@@ -137,7 +137,7 @@ nav .tabs a:hover {
   width: 10% !important;
 }
 
-.carousel-indicators-bg, .carousel-control-prev1, .carousel-control-next {
+.carousel-indicators-bg, .carousel-control-prev1 {
   background-color: rgba(0, 0, 0, 0.1) !important;
   margin-bottom: 0;
 }
