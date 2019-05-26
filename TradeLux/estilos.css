@@ -38,7 +38,7 @@ nav {
     padding: 1rem !important;
     border: 2px solid rgb(218, 175, 41);
     width: 100%;
-    z-index: 2;
+    z-index: 3;
 }
 
 .searchEuser{
@@ -136,7 +136,20 @@ nav .tabs a:hover {
 }
 
 /*RETANGULO CENTRAL*/
+.carousel-control-next{
+  z-index: 2;
+}
+.carousel-indicators-bg{background-color: rgba(0,0,0,0.5) !important;}
+.carousel-control-prev:hover, .carousel-control-prev:active, .carousel-control-next:hover, .carousel-control-next:active {
+  background-color: rgba(255,255,255,0.5) !important;
+}
+.carousel-control-prev1:hover, .carousel-control-prev1:active, .carousel-control-next1:hover, .carousel-control-next1:active {
+  background-color:rgba(0,0,0,0.5) !important;
+}
 
+.carousel-control-prev{
+  z-index: 2;
+}
 .Trade {
     top: 50%;
     left: 50%;
@@ -167,6 +180,7 @@ nav .tabs a:hover {
 }
 
 /*ITENS TRENDING*/
+
 .separador {
     border-left: 1px solid rgba(68, 68, 68, 0.2);
     border-right: 1px solid rgba(68, 68, 68, 0.2);
