@@ -42,40 +42,47 @@
 <body>
   <main class="">
 
-    <nav id="scroll" class="navbar navbar-expand-md navbar-light bg-light position-sticky bg-white border-amarelo border-top-0 border-left-0 border-right-0">
-      <div class="navbar-brand position-absolute h-100 d-flex align-items-center justify-content-center m-0" href="#"> <a class="h-100 d-flex align-items-center justify-content-center" href="index.html"><img src="Imagens/logo.png" class="LogoNav" alt="TradeLux Logo"></a></div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="tabs navbar-collapse collapse" id="collapsingNavbar">
-          <ul class="navbar-nav pl-5 linksNav d-flex justify-content-around">
-              <li class="nav-item">
-                  <a class="nav-link" href="search_cars.html">Cars</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="search_watches.html">Watches</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="search_sneakers.html" data-toggle="collapse">Sneakers</a>
-              </li>
-          </ul>
+    <nav class="navbar navbar-expand-md navbar-light bg-light position-sticky bg-white border-amarelo border-top-0 border-left-0 border-right-0">
 
-      </div>
-      <ul class="navbar-nav ml-auto pr-2 pr-sm-4 pr-md-5 d-flex flex-row align-items-center">
+      <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="index.html" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25"><img src="Imagens/logo_small.png" class="img-fluid"></a>
+
+        <div class=" tabs navbar-collapse collapse dual-nav w-50 order-1 order-md-0 justify-content-center">
+          <ul class="navbar-nav w-75 justify-content-between">
+            <li class="nav-item">
+              <a class="nav-link" href="search_cars.html">Cars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="search_watches.html">Watches</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="search_sneakers.html">Sneakers</a>
+            </li>
+          </ul>
+        </div>
+
+
+
+      <div class="navbar-collapse collapse dual-nav w-50 order-2">
+        <ul class="nav navbar-nav d-flex flex-row ml-auto align-items-center searchEuser">
           <li class="nav-item pr-2 pr-sm-4 pr-md-5">
-              <div class="search-box">
-                <input type="text" name="" class=" search-txt" placeholder="Type to search" />
-                <a class="search-btn" href="#">
-                <i class="fas fa-search AmareloPrincipal"></i>
-                </a>
+            <div class="search-box">
+              <input type="text" name="" class=" search-txt" placeholder="Type to search" />
+              <a class="search-btn" href="#"><i class="fas fa-search"></i></a>
             </div>
           </li>
-            <li class="nav-item"><a data-toggle="modal" data-target="#modal-login"> <img class="userLogo" src="Imagens/user.png" alt=""> </a></li>
-      </ul>
+          <li class="nav-item"><a data-toggle="modal" data-target="#modal-login"> <img class="userLogo" src="Imagens/user.png" alt=""> </a></li>
+        </ul>
+      </div>
+
   </nav>
 
 
-  
+
     <div class="container-fluid">
 
 

@@ -40,10 +40,6 @@ nav {
     width: 100%;
     z-index: 1;
 }
-nav div:first-child{
-  left: 50%;
-  transform: translateX(-50%);
-}
 
 
 .linksNav{
@@ -72,6 +68,7 @@ nav .tabs a:hover {
 .search-box {
   position: relative;
     box-sizing: content-box;
+    color: black;
     background: rgb(239, 239, 239);
     width: fit-content;
     height: 30px;
@@ -86,7 +83,7 @@ nav .tabs a:hover {
 
 .search-box:hover > .search-btn {
     background: white;
-    color: black;
+    color: rgb(218, 175, 41);
 }
 
 .search-btn {
@@ -535,11 +532,20 @@ body.modal-open-noscroll {
     -ms-flex-flow: column !important;
     flex-flow: column!important;
   }
+  .searchEuser{
+    margin-top: 1rem !important;
+    padding-top: .5rem !important;
+    border-top: 1px solid rgb(218, 175, 41) !important;
+  }
 }
 @media (min-width: 768px){
   .card-deck{
     -ms-flex-flow: row wrap !important;
     flex-flow: row wrap!important;
-
+  }
+  .searchEuser{
+    margin-top: 0rem !important;
+    padding-top: 0rem !important;
+    border-top: none !important;
   }
 }
