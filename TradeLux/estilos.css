@@ -259,6 +259,11 @@ footer a {
   transform: translateX(-50%);
 }
 
+.producttitle{
+    margin-top: 1rem;
+    
+}
+
 footer .produtos a {
   color: darkgray;
 }
