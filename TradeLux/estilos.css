@@ -137,7 +137,7 @@ nav .tabs a:hover {
   width: 10% !important;
 }
 
-.carousel-indicators-bg, .carousel-control-prev1 {
+.carousel-indicators-bg, .carousel-control-prev1, .carousel-control-next1 {
   background-color: rgba(0, 0, 0, 0.1) !important;
   margin-bottom: 0;
 }
