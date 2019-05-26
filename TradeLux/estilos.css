@@ -38,9 +38,12 @@ nav {
     height: 5rem;
     border: 2px solid rgb(218, 175, 41);
     width: 100%;
-    z-index: 2;
+    z-index: 1;
 }
-
+nav div:first-child{
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 
 .linksNav{
@@ -50,14 +53,16 @@ nav {
     color: rgb(68, 68, 68);
     font-size: 1.1rem;
 }
-
+.LogoNav{
+  height: 75%;
+}
 /*DESENVOLVER ANIMAÇÃO HOVER*/
-.navPrincipal a {
+nav .tabs a {
     border-bottom: 2px solid white;
 }
 
 /*DESENVOLVER ANIMAÇÃO HOVER*/
-.navPrincipal a:hover {
+nav .tabs a:hover {
     color: rgb(218, 175, 41) !important;
     border-bottom: 2px solid rgb(218, 175, 41);
 }
@@ -523,15 +528,4 @@ body.modal-open-noscroll {
 
 .alinhamentoVsRow {
     padding-left: 15px
-}
-
-/*MEDIA QUERIES*/
-@media (min-width: 768px) {
-.navbar-brand.abs
-    {
-        position: absolute;
-        width: 100%;
-        left: 0;
-        text-align: center;
-    }
 }
