@@ -1,6 +1,3 @@
-- heart pixeliza e move-se quando hover na trending;
--bottom : 0 no .lastfooter ????????????????????;
-
 
 BUG 1- Ao inicar a página em desktop pela primeira vez, o carousel não ocupa a altura total do viewport ( o que é suposto ), isto é facilmente contornável com a atualização da página (F5).
 
