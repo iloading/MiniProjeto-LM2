@@ -41,9 +41,8 @@ nav {
     z-index: 2;
 }
 
-nav-item {
-    margin: 0 !important;
-}
+
+
 
 .nav-link {
     color: rgb(68, 68, 68);
@@ -64,11 +63,8 @@ nav-item {
 /*EFEITO HOVER*/
 /*SEARCH BOX*/
 .search-box {
+  position: relative; 
     box-sizing: content-box;
-    position: absolute;
-    top: 50%;
-    left: 80%;
-    transform: translate(-99%, -50%);
     background: rgb(239, 239, 239);
     width: fit-content;
     height: 30px;
@@ -267,14 +263,6 @@ footer a:hover {
 
 footer a:active {}
 
-ul {
-
-    list-style: none;
-    display: inline-block;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
 
 .categoria {
     display: inline;
@@ -535,4 +523,13 @@ body.modal-open-noscroll {
     padding-left: 15px
 }
 
-/*Carousel c/ thumbnail*/
+/*MEDIA QUERIES*/
+@media (min-width: 768px) {
+.navbar-brand.abs
+    {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+}
