@@ -42,35 +42,37 @@
 <body>
   <main class="">
 
-    <nav id="scroll" class="navbar position-sticky navbar-expand-sm row m-0 bg-white border-amarelo border-top-0 border-left-0 border-right-0 p-3 ">
-      <section class="col-5">
-        <ul class="navPrincipal nav navbar-nav justify-content-center ">
-          <li class="nav-item m-0 mr-5 ml-5">
-            <a class="nav-link" href="#">Cars</a>
+    <nav id="scroll" class="navbar navbar-expand-md navbar-light bg-light position-sticky bg-white border-amarelo border-top-0 border-left-0 border-right-0">
+      <div class="navbar-brand position-absolute h-100 d-flex align-items-center justify-content-center m-0" href="#"> <a class="h-100 d-flex align-items-center justify-content-center" href="index.html"><img src="Imagens/logo.png" class="LogoNav" alt="TradeLux Logo"></a></div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="tabs navbar-collapse collapse" id="collapsingNavbar">
+          <ul class="navbar-nav pl-5 linksNav d-flex justify-content-around">
+              <li class="nav-item">
+                  <a class="nav-link" href="search_cars.html">Cars</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="search_watches.html">Watches</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="search_sneakers.html" data-toggle="collapse">Sneakers</a>
+              </li>
+          </ul>
+
+      </div>
+      <ul class="navbar-nav ml-auto pr-2 pr-sm-4 pr-md-5 d-flex flex-row align-items-center">
+          <li class="nav-item pr-2 pr-sm-4 pr-md-5">
+              <div class="search-box">
+                <input type="text" name="" class=" search-txt" placeholder="Type to search" />
+                <a class="search-btn" href="#">
+                <i class="fas fa-search AmareloPrincipal"></i>
+                </a>
+            </div>
           </li>
-          <li class="nav-item mr-5 ml-5 ">
-            <a class="nav-link" href="#">Watches</a>
-          </li>
-          <li class="nav-item mr-5 ml-5">
-            <a class="nav-link" href="search.html">Sneakers</a>
-          </li>
-        </ul>
-      </section>
-      <section class="container-fluid col-2 text-center align-self-center">
-        <a class="" href="index.html"><img src="Imagens/logo.png" class="img-responsive img-fluid w-50" alt="TradeLux Logo"></a>
-      </section>
-      <section class="container-fluid col-5 text-right align-self-center">
-        <div class="search-box">
-          <input type="text" name="" class=" search-txt" placeholder="Type to search">
-          <a class="search-btn" href="#">
-            <i class="fas fa-search AmareloPrincipal"></i>
-          </a>
-        </div>
-        <div class="container-fluid">
-          <a data-toggle="modal" data-target="#modal-login"> <img class="img-fluid userLogo" src="Imagens/user.png" alt=""> </a>
-        </div>
-      </section>
-    </nav>
+            <li class="nav-item"><a data-toggle="modal" data-target="#modal-login"> <img class="userLogo" src="Imagens/user.png" alt=""> </a></li>
+      </ul>
+  </nav>
 
     <div class="container-fluid">
 
