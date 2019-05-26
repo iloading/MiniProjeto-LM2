@@ -341,9 +341,7 @@ ul.menu li {
 
     margin-top: 1rem;
     margin-bottom: 1rem;
-    font-size: 100px;
-    text-align: center;
-
+    font-size: 7rem;
 }
 
 .aboutxt {
@@ -351,8 +349,6 @@ ul.menu li {
     margin-top: 5rem;
     margin-bottom: 3rem;
     font-size: 20px;
-    text-align: center;
-
 }
 
 /*MODAL*/
